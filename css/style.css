@@ -14,7 +14,8 @@ li{
 }
 #warper{
 	width: 100%;
-	background-image: url(../images/timg.jpg);
+	height: 2200px;
+	background-image: url(../images/rBACJlYs20qjMgBXAAGLBNiLFZI227.png);
 	background-size: cover;
 }
 .container{
@@ -25,5 +26,17 @@ li{
 	border:1px solid #d0cfcf;
 	margin-top: 20px;
 	float: left;
-	margin-left: 40px;
+	margin-left: 36px;
+	font-family: 幼圆;
+	font-size: 18px;
+
+}
+#main button{
+	background: #bf435e;
+	padding: 10px;
+	font-size: 20px;
+	font-family: 幼圆;
+	border-radius: 10px 20px ;
+	color:#fff;
+	border:1px solid red;
 }
