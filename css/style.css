@@ -1,0 +1,28 @@
+*{
+	margn:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+#main{
+
+	margin: auto;
+}
+#warper{
+	width: 100%;
+	background-image: url(../images/timg.jpg);
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+#main li{
+	border:1px solid #d0cfcf;
+	margin-top: 20px;
+	float: left;
+	margin-left: 40px;
+}
