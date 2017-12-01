@@ -15,6 +15,7 @@ li{
 #warper{
 	width: 100%;
 	background-image: url(../images/timg.jpg);
+	background-size: cover;
 }
 .container{
 	width: 80%;
