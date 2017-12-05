@@ -1,0 +1,60 @@
+*{
+	margn:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+#main{
+
+	margin: auto;
+}
+#warper{
+	width: 100%;
+	height: 2200px;
+	background-image: url(../images/rBACJlYs20qjMgBXAAGLBNiLFZI227.png);
+	background-size: cover;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+#main ul li img{
+	border-radius: 10px;
+	border:3px solid yellow ;
+}
+#main li{
+	border:1px solid #d0cfcf;
+	margin-top: 20px;
+	float: left;
+	margin-left: 36px;
+	font-family: 幼圆;
+	font-size: 18px;
+
+
+}
+#main ul li img:hover{
+	transform: rotate(0deg)
+	scale(1.2,1.2);
+	z-index:5;
+	position: relative;
+	transition:all 2s ease ;
+
+	/*transform变形   rotate旋转 scale缩放*/
+}
+#main button{
+	background: #bf435e;
+	padding: 10px;
+	font-size: 20px;
+	font-family: 幼圆;
+	border-radius: 10px 20px ;
+	color:#fff;
+	border:1px solid red;
+}
+h1{
+	font-family:Comic Sans MS;
+	font-size: 50px;
+}
