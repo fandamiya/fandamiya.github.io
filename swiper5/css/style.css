@@ -40,3 +40,33 @@ body {
     margin-right:-13.5px;
 
 }
+
+/*第一屏开始*/
+
+
+.s1{
+    position: relative;
+    height: 100%;
+    background:url("../img/bj.png");
+}
+.s1 .header img:nth-of-type(1){
+    width: 30px;
+    position: absolute;
+    top:125px;
+    left:66px;
+}
+.s1 .header img:nth-of-type(2){
+    width: 66px;
+
+}
+.s1 .header img:nth-of-type(3){
+    width: 55px;
+
+}
+.s1 .header img:nth-of-type(4){
+    width: 50px;
+
+}
+.s1 .header img:nth-of-type(5){
+    width: 50%;
+}
