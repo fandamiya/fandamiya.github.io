@@ -146,17 +146,69 @@ color:#09e7d7;
 .s2 .header h2{
     color:#00fecc;
     font-size: 25px;
-    padding-top: 40px;
+    padding-top: 71px;
 }
 .s2 .header small{
     color:#00fecc;
     letter-spacing: 5px;
 }
 .s2 .header::before{
-    content: '';
-    background:url("../img/");
+    content:'';
+    background:url("../img/14.png");
+    background-size:contain;
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    left:10%;
+    top:12%;
 }
 .s2 .header::after{
     content:'';
-    background: url("../img/");
+    background:url("../img/13.png");
+    background-size:contain;
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    right:10%;
+    top:12%;
 }
+.s2 .header p{
+    color:#00fecc;
+    font-family:楷体;
+    font-size:15px;
+    letter-spacing: 4px;
+    line-height: 21px;
+    padding: 0px 10px;
+}
+.s2 .header div{
+    position: absolute;
+    top:25%;
+    width:80%;
+    height: 380px;
+    left: 50%;
+    margin-left: -40%;
+
+}
+.s2 div img{
+    width: 83%;
+    position: absolute;
+    left: 33px;
+    top: 150px;
+}
+.s2 img:nth-of-type(2){
+    width: 150%;
+    height: 150%;
+    position: relative;
+    bottom: -5px;
+    left: -104px;
+
+}
+.s2 img:nth-of-type(3){
+    width: 150%;
+    height: 150%;
+    position: relative;
+    bottom: -5px;
+    left: -104px;
+
+}
+
