@@ -8,6 +8,7 @@
 
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/css/swiper.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- Demo styles -->
     <style>
@@ -20,7 +21,7 @@
     <div class="swiper-wrapper">
         <div class="swiper-slide">
             <div class="s1">
-            <div class="header">
+            <div class="header" >
 
                 <img src="img/1.png" alt="">
                 <img src="img/2.png" alt="">
@@ -32,7 +33,7 @@
             <div class="main">
                 <img src="img/7.png" alt="">
                 <img src="img/8.png" alt="">
-                <p class="img9">
+                <p  class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
                     梦想起航。再创辉煌
                 </p>
             </div>
@@ -60,9 +61,12 @@
                         <span>某某企业</span>
 
                     </div>
+
+                 </div>
+                <div class="footer">
                     <img src="img/10.png" alt="">
                     <img src="img/11.png" alt="">
-                 </div>
+                </div>
 
             </div>
 
@@ -91,7 +95,7 @@
 
 <!-- Swiper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/js/swiper.js"></script>
-
+<script src="js/swiper.animate1.0.2.min.js"></script>
 <!-- Initialize Swiper -->
 <script src="js/script.js"></script>
 </body>

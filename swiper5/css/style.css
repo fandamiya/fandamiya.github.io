@@ -101,7 +101,7 @@ body {
     position: relative;
     width: 81%;
 }
-.s1 .img9{
+.s1 .ani{
     width: 52%;
     height: 100%;
     overflow: hidden;
@@ -117,19 +117,19 @@ body {
     width:400px;
     height: 30px;
 }
-.footer p{
+.s1 .footer p{
 
 color:#09e7d7;
    margin-top:10px;
 }
-.footer img:nth-of-type(1){
+.s1 .footer img:nth-of-type(1){
     width: 150%;
     height: 150%;
     position: relative;
     top: 77px;
     left: -67px;
 }
-.footer img:nth-of-type(2){
+.s1 .footer img:nth-of-type(2){
     width: 150%;
     height: 150%;
     position: relative;
@@ -195,20 +195,31 @@ color:#09e7d7;
     left: 33px;
     top: 150px;
 }
-.s2 img:nth-of-type(2){
+.s2 .footer img:nth-of-type(1){
+    width: 149%;
+    height: 178%;
+    position: relative;
+    top: 477px;
+    left: -77px;
+}
+.s2 .footer img:nth-of-type(2){
     width: 150%;
     height: 150%;
     position: relative;
-    bottom: -5px;
-    left: -104px;
+    top: 398px;
+    left: -137px;
 
 }
-.s2 img:nth-of-type(3){
-    width: 150%;
-    height: 150%;
+.s2 .header div span{
+    width: 120px;
+    height: 28px;
+border-radius: 10px;
+    font-size:13px;
+    color:#11253d;
+    font-weight:bold;
     position: relative;
-    bottom: -5px;
-    left: -104px;
-
+    padding:5px 30px;
+    top: 26px;
+    left: -1px;
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#0ebdce), to(rgba(18, 255, 173, 0.5)));
 }
-
