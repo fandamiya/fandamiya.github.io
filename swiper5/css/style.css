@@ -87,6 +87,7 @@ body {
     position: absolute;
     top: 173px;
     left: 54px;
+    animation-iteration-count:infinite;
 
 }
 .s1 .main img:nth-of-type(1){
@@ -101,7 +102,7 @@ body {
     position: relative;
     width: 81%;
 }
-.s1 .ani{
+.s1 .img9{
     width: 52%;
     height: 100%;
     overflow: hidden;
@@ -194,6 +195,7 @@ color:#09e7d7;
     position: absolute;
     left: 33px;
     top: 150px;
+    animation-iteration-count:infinite;
 }
 .s2 .footer img:nth-of-type(1){
     width: 149%;
