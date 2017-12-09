@@ -36,7 +36,7 @@ li{
 
 
 }
-#main ul li img:hover{
+#main ul li :hover{
 	transform: rotate(0deg)
 	scale(1.2,1.2);
 	z-index:5;
