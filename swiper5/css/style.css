@@ -225,3 +225,135 @@ border-radius: 10px;
     left: -1px;
     background:-webkit-gradient(linear, 0 0, 0 bottom, from(#0ebdce), to(rgba(18, 255, 173, 0.5)));
 }
+#mp3Btn{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    z-index: 100;
+    width: 30px;
+    height: 31px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    border: 4px solid #292929;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+    transform: rotateZ(0deg);
+    animation: mp3key 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+@keyframes mp3key{
+    from{
+        transform: rotateZ(0deg);
+
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+#mp3Btn img {
+    width: 10px;
+}
+
+
+
+
+.s3{
+    width: 100%;
+    height: 100%;
+    background:url("../img/bj.png");
+}
+.s3 .header h2{
+    color:#00fecc;
+    font-size: 25px;
+    padding-top: 71px;
+}
+.s3 .header small{
+    color:#00fecc;
+    letter-spacing: 5px;
+}
+.s3 .header::before{
+    content:'';
+    background:url("../img/14.png");
+    background-size:contain;
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    left:10%;
+    top:12%;
+}
+
+.s3 .header::after{
+    content:'';
+    background:url("../img/13.png");
+    background-size:contain;
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    right:10%;
+    top:12%;
+}
+.s3 .main p{
+    padding: 7px;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    color: #35f0bb;
+    line-height: 60px;
+    background:radial-gradient(#020219, #043d50, #056474);
+}
+.s3 .main p:nth-of-type(1){
+    top: 59px;
+    left: 65px;
+
+}
+.s3 .main p:nth-of-type(2){
+    top: -14px;
+    left: 232px;
+}
+.s3 .main p:nth-of-type(3){
+
+    top: 57px;
+    left: 288px;
+
+}
+.s3 .main p:nth-of-type(4){
+    top: -12px;
+    left: 11px;
+}
+.s3 .main p:nth-of-type(5){
+    top: 35px;
+    left: 65px;
+}
+.s3 .main p:nth-of-type(6){
+    top: -41px;
+    left: 236px;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    background:radial-gradient(#020219, #043d50, #056474);
+    /*opacity: 0.7;*/
+}
+.s3 .main p:nth-of-type(7){
+    padding:7px;
+    position: relative;
+    top:20px;
+    color:#35f0bb;
+    left:20px;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    background:radial-gradient(#020219, #043d50, #056474);
+    /*opacity: 0.7;*/
+}
