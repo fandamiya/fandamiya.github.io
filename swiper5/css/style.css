@@ -327,33 +327,31 @@ border-radius: 10px;
     left: 11px;
 }
 .s3 .main p:nth-of-type(5){
-    top: 35px;
+    top: 19px;
     left: 65px;
 }
 .s3 .main p:nth-of-type(6){
-    top: -41px;
+    top: -57px;
     left: 236px;
-    width: 60px;
-    height: 60px;
-    font-size: 20px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 60px;
-    background:radial-gradient(#020219, #043d50, #056474);
-    /*opacity: 0.7;*/
+
 }
 .s3 .main p:nth-of-type(7){
-    padding:7px;
+    top: -300px;
+    left: 120px;
+    width: 135px;
+    height: 135px;
+    line-height: 138px;
+    font-size: 32px;
+}
+.s3 .main .text{
+    width: 300px;
+    height: 60px;
     position: relative;
     top:20px;
-    color:#35f0bb;
     left:20px;
-    width: 60px;
-    height: 60px;
-    font-size: 20px;
-    border-radius: 50%;
+}
+.s3 .main .text h3{
     text-align: center;
-    line-height: 60px;
-    background:radial-gradient(#020219, #043d50, #056474);
-    /*opacity: 0.7;*/
+    color: #35f0bb;
+    font-size: 30px;
 }
