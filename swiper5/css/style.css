@@ -787,7 +787,7 @@ border-radius: 10px;
     background: #fff;
     border:1px solid #00f2ca;
     margin:auto;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .s7 .main button{
@@ -797,6 +797,11 @@ border-radius: 10px;
     border:1px solid #00f2ca;
     margin:auto;
     margin-top: 22px;
+}
+.s7 .main .text{
+    margin-top:25px;
+    color:#00f2ca;
+    margin-left:-50px;
 }
 .s7 .footer img:nth-of-type(1){
     width: 149%;
