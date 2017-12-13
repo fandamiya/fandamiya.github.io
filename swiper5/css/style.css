@@ -729,3 +729,33 @@ border-radius: 10px;
     top: 397px;
     left: -137px;
 }
+.s7 .header h2{
+    color:#00fecc;
+    font-size: 25px;
+    padding-top: 71px;
+}
+.s7 .header small{
+    color:#00fecc;
+    letter-spacing: 5px;
+}
+.s7 .header::before{
+    content:'';
+    background:url("../img/14.png");
+    background-size:contain;
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    left:10%;
+    top:12%;
+}
+
+.s7 .header::after{
+    content:'';
+    background:url("../img/13.png");
+    background-size:contain;
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    right:10%;
+    top:12%;
+}
