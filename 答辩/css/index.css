@@ -8,6 +8,7 @@
             background-size:cover;
             /*background: url(images/stones-close-up-background.jpg);*/
             margin:0 auto;
+            overflow: hidden;
     }
         .right p{
             margin-top:10px;
