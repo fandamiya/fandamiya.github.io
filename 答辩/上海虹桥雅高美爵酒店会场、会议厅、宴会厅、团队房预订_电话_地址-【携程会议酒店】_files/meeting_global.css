@@ -1,0 +1,120 @@
+@charset "utf-8";
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, em, button { margin:0; padding:0; }
+html { background-color:#FFF; }
+body { background-color:#FFF; font-size:12px; line-height:1.5; font-family:"Microsoft Yahei",Tahoma,Simsun,sans-serif; color:#333; }
+img, fieldset { margin:0; padding:0; border:0; }
+input, textarea {font-size:12px;font-family:"Microsoft Yahei",Tahoma,Simsun,sans-serif; color:#333;}
+table { border-collapse:collapse; }
+a { color:#0065bb; text-decoration:none; outline:none; font-family: "Microsoft Yahei",Simsun,sans-serif; }
+a:hover { text-decoration:underline; }
+h1, h2, h3, h4, h5 { font-family:"Microsoft Yahei",Arial,Simsun,sans-serif; }
+ul li, ol li { list-style:none; }
+dfn {font-style:normal; font-size:12px; font-family:Arial !important;}
+select { padding:1px; font-family:"Microsoft Yahei",Arial,Simsun,sans-serif; border:1px solid #CCC; background-color:#FFF; }
+input[type="text"],input[type="number"] { padding:3px; border:solid 1px #CCC; box-shadow: 1px 1px 3px #DDDDDD inset; }
+input[type="text"]:focus,input[type="number"]:focus{ background-color:#f1f9ff; border-color:#5d9de5 #67a1e2 #67a1e2 #5d9de5; border-style:solid; border-width:1px;box-shadow: 1px 1px 3px #d0dee6 inset;}
+.basefix,.layoutfix { *zoom:1; }
+.basefix:after,.layoutfix:after { clear:both; content:'.'; display:block; height:0; overflow:hidden; }
+.float_left { float:left !important; }
+.float_right { float:right !important; }
+.invisible { visibility:hidden !important; }
+.hidden { display:none !important; }
+.border_none { border:0 none !important; }
+.base_price { font-style:normal; font-family: arial; text-decoration:none; }
+.base_price dfn { font-family: Arial, Simsun; font-size: 12px; }
+.base_price strong {font-family:Verdana;}
+.input_error {background-color: #FFF7D9 !important;border-color: #D80000 #E50000 #E50000 #D80000 !important;border-style: solid;}
+.input_default { color:#808080 !important; }
+.inputSel{ color:#808080;}
+/* labels&it's input */
+.base_label { _padding-bottom: 1px; *display: inline-block; border-bottom:1px solid transparent; _border-bottom:none; _font-family:Simsun; cursor: pointer; }
+.base_label:hover { border-bottom: 1px dashed #aaa; }
+.base_label input { margin: -4px 3px 0 0; *margin-top: -2px; width: 12px; height: 12px; overflow:hidden; border: none; font-family:Arial; vertical-align: middle; }
+/* alert */
+.c_alert { padding-left:7px; background: url(http://pic.c-ctrip.com/common/bg_alertinfo.gif) no-repeat 0 -8px; overflow:hidden; }
+.c_alertinfo { padding:4px 5px 4px 8px; border:1px solid #ffb533; border-left:0; color:#333;font-size:12px;line-height:20px;background-color:#fff5d1; }
+
+.callback { position: fixed; bottom: 100px;right:0;/* left: 50%; margin-left: 600px; */ z-index: 100;}
+#navi a.fbtn {width: 54px;padding-top: 7px;color: #999;}
+#navi a {display: block;text-align: center;margin-bottom: 10px;height: 47px;background: #e7e7e7;font: 14px/18px "Microsoft Yahei"; }
+#navi a.fbtn:hover{background: #01427a;color: #fff;}
+#navi .f_us { position: relative;}
+#navi a.fbtn_us { padding: 7px 10px 0; text-align: left;background: #01427a;color: #fff; position: absolute;top: 0; left: -153px;}
+#navi a.g_top { width: 54px;height: 54px;background: url(http://pic.c-ctrip.com/mice/m_top.gif) no-repeat;}
+#navi a.fbtn1{width: 54px;padding-top: 7px;color: #fff; background:#f60;}
+#navi a.g_top:hover{ background-position:-54px 0;}
+.fbtn_us{ display:block}
+@-moz-document url-prefix() {#navi a.fbtn_us {left: -152px; } }
+
+.base_alert {position: absolute;z-index: 999;}
+.base_alert b, .base_alert i { position: absolute; height: 0;width: 0;line-height: 0; font-size: 0; border-left: 0 none;top: 8px;}
+.base_alert b {border-right: 5px solid #FFB533;border-top: 5px dashed transparent;border-bottom: 5px dashed transparent; left: -5px;}
+.base_alert i {border-right: 5px solid #FFF5D1;border-top: 5px dashed transparent; border-bottom: 5px dashed transparent;left: -4px;}
+.base_alert .alert_info {background-color: #FFF5D1; border: 1px solid #FFB533; padding: 3px;}
+
+.mt-bubble-tooltip-container { position : relative; }
+.mt-bubble-tooltip { display : block; margin : 0; padding :0; overflow : hidden; position : absolute; width : auto; color : #333; font-size : 10px; top : 50%; margin-top: -16px;}
+.mt-bubble-tooltip__inner { border-radius : 5px; border : 1px solid #FFB533; background-color : #FFF5D1; display : block; margin :0; padding :0; margin-left : 8px; }
+.mt-bubble-tooltip__arrow { display : block; left :2px; margin-top : 8px; background-position : -16px -48px; position : absolute; width : 16px; height : 16px; overflow : hidden; background-repeat : no-repeat; background-image : url(http://pic.c-ctrip.com/common/un_jmp_tri.png); }
+.mt-bubble-tooltip__text { margin : 0; padding : 0; display : block; }
+.mt-bubble-tooltip__text span { margin : 0 10px; line-height : 30px; }
+
+#txtGoPage.invalid { border-color:red;color:red;}
+
+
+#mt-pic-hover-container { position: absolute; border: 2px solid #DDD; padding: 2px; background-color: #FFF; z-index: 99; }
+#mt-pic-hover-container img { display: block; }
+
+/* 购物车已满、散客单控制话术弹窗样式 */
+.pop-box{width: 418px; height: 148px;overflow: hidden;border:#67a1e2 solid 1px;background: #fff;}
+.pop-box h2{font-size: 14px;height: 30px;line-height: 30px;background: #e9f5ff;padding-left: 10px;padding-right: 20px;position: relative;font-weight: normal;}
+.pop-box--sc-max-count-exceeded { z-index : 999; position : fixed; top : 50%; left : 50%; margin-left : -207px; margin-top : -74px; }
+#mt-sc-min-quantity-required-hint {color:red;padding:20px 20px 0;}
+/* 购物车已满、散客单控制话术弹窗样式 */
+
+
+/* 给元素加上文字过长带省略号的样式；元素必须设置 width */
+.mt-ellipsis { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+
+.j-sticky {
+    position: fixed !important;
+    top: 0 !important;
+    left: 50% !important;
+    z-index: 99 !important;
+    box-shadow: 0 6px 13px #ddd;
+}
+
+
+/* 购物车提示弹窗样式 */
+.pop-main { padding: 20px 0 }
+.pop-main p { height: 40px; line-height: 40px; margin-bottom: 10px; text-align: center }
+.pop-btn { width: 60px; height: 24px; border: #0055aa solid 1px; background: #2277cc; display: block; color: #fff; text-align: center; line-height: 24px; box-shadow: 0 1px 2px #3377bb; border-radius: 2px; margin: 0 auto 5px }
+.pop-btn:hover { text-decoration: none }
+.close-icon { background: url(http://pic.c-ctrip.com/scenic_htl/meeting/mticon2.png?2016) no-repeat; display: inline-block; overflow: hidden; width: 18px; height: 18px; overflow: hidden; position: absolute; right: 4px; top: 5px; background-position: -56px -163px }
+/* 购物车提示弹窗样式 */
+
+
+
+#mt-city-search-engine-container{position:absolute;top:0;left:0;width:0;height:0}
+#mt-city-search-engine-container.open{z-index:100}
+#mt-city-search-engine{display:none;position:absolute;border:1px solid #999;background-color:#FFF;width:398px;z-index:200}
+#mt-city-search-engine.open{display:block}
+.mt-city-search-engine__hint{height:26px;margin:0 10px 4px;padding:0 2px;border-bottom:1px dotted #CCC;line-height:26px;color:#999}
+.mt-city-search-engine__result{display:block;overflow:hidden;padding:5px 7px 5px 10px;color:#333;line-height:18px;cursor:pointer;*zoom:1}
+.mt-city-search-engine__result.highlight,.mt-city-search-engine__result:hover{background-color:#2577E3;color:#FFF;text-decoration:none}
+.mt-city-search-engine__no-match{line-height:26px;overflow:hidden;margin:0 10px 4px;padding:0 2px;color:#C01111;border-bottom:0 none}
+.mt-city-search-engine-close{cursor:pointer;float:right;width:26px;height:26px;font:bold 14px/26px Simsun;color:#666;text-align:center}
+.mt-city-search-engine__result-category{float:right;height:18px;line-height:18px;background-image:url(http://pic.c-ctrip.com/hotels121118/ico_search_box_2.png);background-repeat:no-repeat;width:62px;padding-right:20px;padding-left:0;text-align:right;background-position:right -33px}
+.mt-city-search-engine__result.highlight .mt-city-search-engine__result-category,.mt-city-search-engine__result:hover .mt-city-search-engine__result-category{background-position:right 2px}
+.mt-city-search-engine-pagination{display:block;font:12px/1.5 arial;margin:-1px 0 0;padding:6px 0;text-align:center;background:#fff;position:relative}
+.mt-city-search-engine-pagination a{display:inline-block;margin:0;color:#06c;padding:0 6px;font:14px/1.5 Tahoma,Arial,Simsun,sans-serif;text-decoration:underline}
+.mt-city-search-engine-pagination a.current{color:#000;text-decoration:none}
+#mtcity.mt-city-empty{color:#999}
+#mtcity.mt-city-city-not-selected{background-color:#FFF7D9;border-color:#D80000 #E50000 #E50000 #D80000;border-style:solid;border-width:1px}
+.mt-city-not-found-hint,.mt-city-not-selected-hint{display:none;margin:0;padding:0;overflow:hidden;position:absolute;width:auto;color:#333;border-radius:5px;font:12px/2 Arial,Tahoma,simsun;top:3px;right:-124px}
+.mt-city-not-found-hint.open,.mt-city-not-selected-hint.open{display:block}
+.mt-city-not-found-hint__wrapper,.mt-city-not-selected-hint__wrapper{border-radius:5px;border:1px solid #FFB533;background-color:#FFF5D1;display:block;margin:0;padding:0;margin-left:8px}
+.mt-city-not-found-hint__arrow,.mt-city-not-selected-hint__arrow{display:block;left:2px;margin-top:7px;background-position:-16px -48px;position:absolute;width:16px;height:16px;overflow:hidden;background-repeat:no-repeat;background-image:url(http://pic.c-ctrip.com/common/un_jmp_tri.png)}
+.mt-city-not-found-hint__text,.mt-city-not-selected-hint__text{margin:0;padding:0;display:block}
+.mt-city-not-found-hint span,.mt-city-not-selected-hint span{padding:2px 5px}

@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        *{margin:0; padding:0;}
+        li{list-style: none}
+        a{text-decoration: none}
+        #warper{
+            width: 100%;
+            background: url(images/1444ad5a57f3f5463542f13cdfe52c58642395bb16b18-dRtQCQ_fw658.jpg)no-repeat;
+            background-size:cover;
+            /*background: url(images/stones-close-up-background.jpg);*/
+            margin:0 auto;
+        }
+        #header{
+            width: 1260px;
+            height: 180px;
+            margin:0 auto;
+        }
+        #nav{
+            width: 900px;
+            height: 60px;
+            float: left;
+            margin-top: 50px;
+        }
+        #nav li {
+            float: left;
+            padding: 18px 20px ;
+            margin-left: 10px;
+            background: #ccc;
+            border-radius: 10px 10px 0 0;
+
+
+        }
+        #nav li a{
+            color:#000;
+            font-family: 微软雅黑;
+            font-size: 17px;
+        }
+        #nav li:hover{
+            background: none;
+            color:#000;
+            border-bottom: 3px solid orange;
+        }
+        #banner{
+            overflow: hidden;
+            margin:0 auto;
+            width:1260px;
+            height: 600px;
+            position: relative;
+        }
+        #banner img{
+            float: left;
+            width:1260px;
+            height: 600px;
+        }
+
+        #pic{
+            width: 7000px;
+            height: 400px;
+        }
+        .hehe li{
+            list-style: none;
+            width: 15px;
+            height: 15px;
+            background: #000;
+            border-radius: 50%;
+            display:block;
+            margin-right: 8px;
+            float: left;
+        }
+        .hehe{
+            position: absolute;
+            top:750px;
+            left: 300px;
+        }
+        .hehe .mini{
+            background: red;
+        }
+        h1{
+            text-align: center;
+            font-family:微软雅黑;
+            color: #584f45;
+
+        }
+
+        #footer{
+            width: 100%;
+            height: 200px;
+            background: #242424;
+            margin-top: 30px;
+        }
+        .nt{
+            text-align: center;
+            color:#fff;
+            padding-top: 50px;
+            font-family:黑体 ;
+        }
+        .nt p{
+            padding-top: 10px ;
+        }
+
+        .haha{
+            position: fixed;
+            width: 200px;
+            height: 320px;
+            bottom: 200px;
+            right: 0px;
+            display: none;
+            text-align: center;
+            background: #c70026;
+            border-radius: 0px 40px 0px 40px ;
+            z-index: 333;
+        }
+        h3{
+            color:orange;
+            font-style: italic;
+            font-size:30px ;
+            text-align: center;
+        }
+        h4{
+            font-family: Trajan Pro;
+            color: #fff;
+            font-size: 30px;
+            margin-top: 30px;
+        }
+        h5{
+            font-family: fantasy;
+            color: #fff;
+            font-size: 35px;
+            margin-top: 10px;
+        }
+        .haha a{
+            text-decoration: none;
+            color: #000;
+            width: 64px;
+        }
+        .haha p{
+            font-family: fantasy;
+            color: #fff;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+        .kaka{
+            width: 200px;
+            height: 200px;
+            border-radius: 30px;
+            display: none;
+            text-align: center;
+            position:fixed;
+            bottom:300px;
+            left:0px;
+            z-index: 333;
+        }
+        .kaka img{
+            width: 100%;
+            height: 100%;
+        }
+        .kaka a{
+            text-decoration: none;
+            color: #000;
+            width: 64px;
+        }
+        #main{
+            width: 1200px;
+            height: 1000px;
+            /*background: #000;*/
+            margin:0 auto;
+            margin-top: 60px;
+        }
+        .mainleft{
+            width: 300px;
+            height: 400px;
+            background: orange;
+            float: left;
+        }
+        .mainright{
+            width: 900px;
+            height: 900px;
+            float: right;
+            /*background: pink;*/
+
+
+        }
+        .mainleft p{
+            font-family:黑体;
+            color:#fff;
+            font-size: 20px;
+            margin-top: 16px;
+            text-align: center;;
+        }
+        .mainright li{
+            float: left;
+            padding: 40px 30px;
+        }
+        .mainright img{
+            width: 240px;
+            height: 150px;
+            
+        }
+        .mainright li a p{
+            font-family:微软雅黑;
+            font-size: 20px;
+            color: #242424;
+            text-align: center;
+        }
+        .mainright li a p:hover{
+            font-family:微软雅黑;
+            font-size: 20px;
+            color: orange;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            font-family:微软雅黑;
+            color: #584f45;
+            /*font-size: 25px;*/
+        }
+        button{
+            width: 90px;
+            height: 45px;
+            background: yellow;
+            border-radius: 10px;
+            position: relative;
+            left:100px;
+            top:25px;
+            font-family:迷你简汉真广标;
+            color: #000;
+            font-size:20px;
+        }
+    </style>
+</head>
+<body>
+<div id="warper">
+    <div class="haha">
+        <a href="">
+            <h4>CONTACTUS</h4>
+            <h5>联系我们</h5>
+            <p><img src="images/2017-06-16_195515_03.jpg" alt=""/>86106522861</p>
+            <p><img src="images/2017-06-16_195515_06.jpg" alt=""/>13774514455</p>
+            <p><img src="images/2017-06-16_195515_08.jpg" alt=""/>4197995</p>
+        </a>
+    </div>
+    <div class="kaka">
+        <a href=""><img src="images/a20160615_152442_416.jpg" alt=""></a>
+    </div>
+    <div id="header">
+        <div id="logo"><img src="images/logo.png" alt=""></div>
+        <div id="nav">
+            <ul >
+                <li><a href="index.html">首页</a></li>
+
+                <li><a href="公司简介.html">公司简介</a></li>
+                <li><a href="">企业文化</a></li>
+                <li><a href="展会回顾.html">展会回顾</a></li>
+                <li><a href="酒店详情.html">加入我们</a></li>
+                <li><a href="">联系方式</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+    <div id="banner">
+        <div id="pic">
+            <a href="">
+                <img src="images/201205310625105661.jpg" alt=""/>
+                <img src="images/u=4115219257,2330817396&fm=23&gp=0.jpg" alt=""/>
+                <img src="images/u=3378431573,2206315425&fm=23&gp=0.jpg" alt=""/>
+                <img src="images/u=813407615,2850582200&fm=23&gp=0.jpg" alt=""/>
+                <img src="images/下载 (1).jpg" alt=""/>
+            </a>
+        </div>
+    </div>
+    <ul class="hehe">
+        <li class="mini"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+
+
+    </ul>
+    <div id="main">
+        <div class="mainleft">
+            <form action="">
+                <h4>展会搜索/Exhibition search</h4>
+                <ul>
+                    <li>
+                        <p>展会行业：
+                        <select>
+                        <option value="">保险业</option>
+                        <option value="">采矿,能源</option>
+                        <option value="">地质</option>
+                        <option value="">餐饮，宾馆</option>
+                        <option value="">房地产</option>
+                        <option value="">服务行业</option>
+                            <option value="">广告</option>
+                            <option value="">建筑</option>
+                            <option value="">计算机</option>
+                            <option value="">媒体</option>
+                            <option value="">养殖</option>
+                            <option value="">美容</option>
+
+                        </select>
+                        </p>
+                    </li>
+                    <li><p>展会年份：
+                        <select>
+                            <option value="">二零一八年</option>
+                            <option value="">2019</option>
+                            <option value="">2020</option>
+                            <option value="">2021</option>
+                            <option value="">2017</option>
+                            <option value="">2016</option>
+                            <option value="">2015</option>
+                            <option value="">2014</option>
+                            <option value="">2013</option>
+                            <option value="">2012</option>
+                            <option value="">2011</option>
+
+
+
+                        </select>
+                    </p></li>
+                    <li><p>展会地区：
+                        <select>
+                            <option value="">上海</option>
+                            <option value="">采矿,能源</option>
+                            <option value="">地质</option>
+                            <option value="">餐饮，宾馆</option>
+                            <option value="">房地产</option>
+                            <option value="">服务行业</option>
+                            <option value="">广告</option>
+                            <option value="">建筑</option>
+                            <option value="">计算机</option>
+                            <option value="">媒体</option>
+                            <option value="">养殖</option>
+                            <option value="">美容</option>
+
+                        </select>
+                    </p></li>
+                    <li><p>展会国家：
+                        <select>
+                            <option value="">新西兰奥良</option>
+                            <option value="">日本</option>
+                            <option value="">中国</option>
+
+                            <option value="">印度</option>
+                            <option value="">印尼</option>
+                            <option value="">密西西比</option>
+                            <option value="">澳大利亚</option>
+                            <option value="">米兰</option>
+                            <option value="">德国</option>
+                            <option value="">俄国</option>
+                            <option value="">澳洲</option>
+                            <option value="">美国</option>
+
+                        </select>
+                    </p></li>
+                    <li><p>展会要求：
+                        <select>
+                            <option value="">大方庄重</option>
+                            <option value="">简单</option>
+                            <option value="">奢华</option>
+                            <option value="">拥有公共间</option>
+                            <option value="">容纳人员</option>
+                            <option value="">迎宾</option>
+                            <option value="">广告介绍</option>
+
+
+                        </select>
+                    </p></li>
+                </ul>
+                 <button>查询</button>
+            </form>
+        </div>
+        <div class="mainright">
+            <h3>YESTERDAY</h3>
+            <h1>展会回顾</h1>
+            <ul>
+                <li><a href=""><img src="images/p/1.jpg" alt=""></a>
+                    <a href=""><p>2017印尼展会</p></a>
+                </li>
+                <li><a href=""><img src="images/p/2.png" alt=""></a>
+                    <a href=""><p>2017相会马来西亚</p></a>
+
+                </li>
+                <li><a href=""><img src="images/p/3.png" alt=""></a>
+                    <a href=""><p>2017巴基斯坦之星</p></a>
+
+                </li>
+                <li><a href=""><img src="images/p/4.png" alt=""></a>
+                    <a href=""><p>2017埃及金字塔之旅</p></a>
+
+                </li>
+                <li><a href=""><img src="images/p/5.png" alt=""></a>
+                    <a href=""><p>2017越南发展</p></a>
+
+                </li>
+                <li><a href=""><img src="images/p/6.png" alt=""></a>
+                    <a href=""><p>2017缅甸翡翠</p></a>
+
+                </li>
+                <li><a href=""><img src="images/p/7.png" alt=""></a>
+                    <a href=""><p>2017泰国人妖</p></a>
+
+                </li>
+                <li><a href=""><img src="images/p/8.jpg" alt=""></a>
+                    <a href=""><p>2017越南走你</p></a>
+
+                </li>
+                <li><a href=""><img src="images/p/9.jpg" alt=""></a>
+                    <a href=""><p>2017印尼展会</p></a>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="nt">
+            <p>网站技术支持：盛邦升华泊头校区范志敏</p>
+            <p>电话：86106522861 传真：861065380018  邮箱：info@annxhibition</p>
+            <p>备案号：京ICP备070348882号</p>
+        </div>
+    </div>
+</div>
+<script src="jquery-1.11.1.min.js"></script>
+
+<script src="lunbo.js"></script>
+</body>
+</html>

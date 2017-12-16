@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!--<link rel="stylesheet" href="呵呵/jqzoom.css">-->
+    <style>
+        #clear{clear:both}
+        *{margin:0; padding:0;}
+        li{list-style: none}
+        a{text-decoration: none}
+        #warper{
+            width: 100%;
+
+            background: url(images/1444ad5a57f3f5463542f13cdfe52c58642395bb16b18-dRtQCQ_fw658.jpg)no-repeat;
+            background-size:cover;
+            margin:0 auto;
+            overflow: hidden;
+        }
+        #header{
+            width: 1280px;
+            height: 180px;
+            margin:0 auto;
+        }
+        #nav{
+            width: 900px;
+            height: 60px;
+            float: left;
+            margin-top: 50px;
+        }
+        #nav li {
+            float: left;
+            padding: 18px 20px ;
+            margin-left: 10px;
+            background: #ccc;
+            border-radius: 10px 10px 0 0;
+
+
+        }
+        #nav li a{
+            color:#000;
+            font-family: 微软雅黑;
+            font-size: 17px;
+        }
+        #nav li:hover{
+            background: none;
+            color:#000;
+            border-bottom: 3px solid orange;
+        }
+        #banner{
+            overflow: hidden;
+            margin:0 auto;
+            width:500px;
+            height: 280px;
+            position: relative;
+            float: left;
+            margin-top: 30px;
+        }
+        #banner img{
+            float: left;
+            width:500px;
+            height: 280px;
+        }
+
+        #pic{
+            width: 4000px;
+            height: 280px;
+        }
+        .hehe li{
+            list-style: none;
+            width: 15px;
+            height: 15px;
+            background: #000;
+            border-radius: 50%;
+            display:block;
+            margin-right: 8px;
+            float: left;
+        }
+        .hehe{
+            position: absolute;
+            top:750px;
+            left: 300px;
+            display: none;
+        }
+        .hehe .mini{
+            background: red;
+        }
+        h1{
+            text-align: center;
+            font-family:微软雅黑;
+            color: #584f45;
+
+        }
+
+        .img img{
+            width: 374px;
+            height: 354px;
+            border:2px solid #ccc;
+        }
+        #footer{
+            width: 100%;
+            height: 200px;
+            background: #242424;
+            margin-top: 400px;
+        }
+        .nt{
+            text-align: center;
+            color:#fff;
+            padding-top: 50px;
+            font-family:黑体 ;
+        }
+        .nt p{
+            padding-top: 10px ;
+        }
+        .anli p{
+            text-align: center;
+            font-family:黑体 ;
+            color:#ccc;
+        }
+        h3{
+            color:orange;
+            font-style: italic;
+            font-size:30px ;
+            text-align: center;
+        }
+        #main p{
+            font-family: 黑体;
+            font-size: 18px;
+            color: #242424;
+            margin-top: 30px;
+
+        }
+        #main{
+            width: 1000px;
+            height: 800px;
+            margin:0 auto;
+            margin-top: 30px;
+        }
+        .haha{
+            position: fixed;
+            width: 200px;
+            height: 320px;
+            bottom: 200px;
+            right: 0px;
+            display: none;
+            text-align: center;
+            background: #c70026;
+            border-radius: 0px 40px 0px 40px ;
+            z-index: 333;
+        }
+        h4{
+            font-family: Trajan Pro;
+            color: #fff;
+            font-size: 30px;
+            margin-top: 30px;
+        }
+        h5{
+            font-family: fantasy;
+            color: #fff;
+            font-size: 35px;
+            margin-top: 10px;
+        }
+        .haha a{
+            text-decoration: none;
+            color: #000;
+            width: 64px;
+        }
+        .haha p{
+            font-family: fantasy;
+            color: #fff;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+        .kaka{
+            width: 200px;
+            height: 200px;
+            border-radius: 30px;
+            display: none;
+            text-align: center;
+            position:fixed;
+            bottom:300px;
+            left:0px;
+            z-index: 333;
+        }
+        .kaka img{
+            width: 100%;
+            height: 100%;
+        }
+        .kaka a{
+            text-decoration: none;
+            color: #000;
+            width: 64px;
+        }
+        #top{
+            width: 1200px;
+            margin:0 auto;
+        }
+        #fuck a{
+            font-size: 20px;
+            font-family: fantasy;
+            color:#2496e6 ;
+            margin-top: 10px;
+
+        }
+
+        #fuck p{
+            font-size: 20px;
+            font-family: fantasy;
+            color:#000 ;
+            margin-top: 10px;
+
+        }
+        #top{
+            width: 1050px;
+            height: 300px;
+        }
+        #top-right{
+            width: 500px;
+            height: 300px;
+
+            /*background: #000;*/
+            float: right;
+        }
+        #top-right hey{
+            font-size:16px;
+            color:#443e3e;
+            font-family:宋体;
+        }
+        #top-right p{
+            padding-top:10px;
+        }
+        #top-right button{
+            background: #39a7ee;
+            width: 90px;
+            height: 30px;
+            font-size: 14px;
+            color:#fff;
+            border-radius: 5px;
+            float: right;
+        }
+        .heihei {
+            width: 700px;
+            height: 50px;
+            padding-top: 20px;
+            /*background: #000;*/
+
+        }
+        .heihei li{
+            float: left;
+            padding:12px 20px;
+            border: 1px solid #4e4c4c;
+        }
+        .heihei li a{
+            color:#333333;
+            font-size: 15px;
+
+        }
+        .heihei li:hover{
+            border:none;
+            border-top:5px solid deepskyblue;
+            font-family:迷你简菱心;
+            color:#000;
+        }
+        table{
+            width: 1000px;
+            margin-top: 30px;
+
+        }
+        th{
+            padding-top: 20px;
+            font-family: 微软雅黑;
+            font-size: 20px;
+            /*border:1px solid #000;*/
+        }
+        td{
+            font-family: 方正细珊瑚简体，方正简体;
+            font-size: 15px;
+            padding-top: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        table{
+            font-family: 方正书宋简体;
+            font-size: 10px;
+            text-align: center ;
+            border:1px solid #ccc;
+        }
+        #top button{
+            float: right;
+        }
+        #dangxin hey{
+            color:orangered;
+            font-size: 17px;
+            font-family: Hobo Std;
+        }
+        #dada{
+            color:#fff;
+            font-size: 25px;
+            background: orangered;
+            width: 200px;
+            height: 70px;
+            border-radius: 10px;
+            font-family: 方正少儿简体,微软雅黑;
+            margin-top: 40px;
+            margin-left: 60px;
+        }
+        .jqzoom{
+            width: 1147px;
+            height: 810px;
+            margin:0 auto;
+        }
+        .jqzoom img{
+            margin-top: 30px;
+        }
+        .hotel-info-list{
+            width: 1000px;
+            height: 70px;
+            margin-top: 30px;
+            margin:0 auto;
+        }
+        .hotel-info-list li{
+            font-family: 微软雅黑;
+            font-size: 20px;
+        }
+        div.zoomdiv {
+            z-index:999;
+            position: absolute;
+            top:0px;
+            left:0px;
+            width: 200px;
+            height: 200px;
+            background: #ffffff;
+            border:1px solid #CCCCCC;
+            display:none;
+            text-align: center;
+            overflow: hidden;
+        }
+        div.jqZoomPup {
+            z-index : 999;
+            visibility: hidden;
+            position: absolute;
+            top:0px;
+            left:0px;
+            width : 50px;
+            height : 50px;
+            border: 1px solid #aaa;
+            /*background: #ffffff url(../images/zoomlens.gif) 50% top  no-repeat;*/
+            opacity: 0.5;
+            -moz-opacity: 0.5;
+            -khtml-opacity: 0.5;
+            filter: alpha(Opacity=50);
+        }
+    </style>
+</head>
+<body>
+<div id="warper">
+    <div class="haha">
+        <a href="">
+            <h4>CONTACTUS</h4>
+            <h5>联系我们</h5>
+            <p><img src="images/2017-06-16_195515_03.jpg" alt=""/>7842566</p>
+            <p><img src="images/2017-06-16_195515_06.jpg" alt=""/>522236655</p>
+            <p><img src="images/2017-06-16_195515_08.jpg" alt=""/>99911200</p>
+        </a>
+    </div>
+    <div class="kaka">
+        <a href=""><img src="images/a20160615_152442_416.jpg" alt=""></a>
+    </div>
+    <div id="header">
+        <div id="logo"><img src="images/logo.png" alt=""></div>
+
+        <div id="nav">
+            <ul >
+                <li><a href="index.html">首页</a></li>
+
+                <li><a href="公司简介.html">公司简介</a></li>
+                <li><a href="">企业文化</a></li>
+                <li><a href="展会回顾.html">展会回顾</a></li>
+                <li><a href="酒店详情.html">加入我们</a></li>
+                <li><a href="">联系方式</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div id="top">
+        <div id="fuck">
+            <p><a href="index.html">首页</a>><a href="index.html">热门会场</a>>上海富豪环球东南亚酒店</p>
+        </div>
+    <div id="banner">
+        <div id="pic">
+            <a href="">
+                <img src="img/11.jpg">
+                <img src="img/12.jpg">
+                <img src="img/13.jpg">
+                <img src="img/14.jpg">
+                <img src="img/15.jpg">
+            </a>
+        </div>
+    </div>
+    <ul class="hehe">
+        <li class="mini"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+
+        <div id="top-right">
+            <h1>上海星皇冠假日酒店</h1>
+            <p><span>【徐家汇地区】</span> 上海 长宁区 番禺路400号</p>
+            <ul>
+                <li><p><hey>会议室数量：</hey>6间</p></li>
+                <li><p><hey>会议室面积：</hey>120~530m</p></li>
+                <li><p><hey>容纳人数：</hey>26~600人</p></li>
+                <li><p><hey>客房数量：</hey>553间</p></li>
+                <li><p><hey>开业时间：</hey>1992年</p></li>
+                <li><p><hey>最近装修：</hey>2008年</p></li>
+                <li><p><hey>96%用户推荐</hey></p></li>
+            </ul>
+            <button>+加入询价</button>
+        </div>
+    </div>
+
+    <div id="clear"></div>
+    <div id="main">
+    <div class="heihei">
+        <ul>
+            <li><a href="">房型预定</a></li>
+            <li><a href="">会议室预定</a></li>
+            <li><a href="">餐饮信息</a></li>
+            <li><a href="">酒店详情</a></li>
+            <li><a href="">交通地图</a></li>
+            <li><a href="">用户点评</a></li>
+        </ul>
+    </div>
+        <table id="dangxin">
+
+            <thead>
+            <tr>
+                <th>房型</th>
+                <th>床型</th>
+                <th>宽带</th>
+                <th>接送</th>
+                <th>房间数量</th>
+                <th>早餐</th>
+                <th>均价（含服务费）</th>
+                <th>小计</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><img src="上海虹桥雅高美爵酒店会场、会议厅、宴会厅、团队房预订_电话_地址-【携程会议酒店】_files/230p0g0000007sheu72A6_R_95_95.jpg" alt=""/></td>
+                <td>大床</td>
+                <td>有</td>
+                <td>
+                    含
+                </td>
+                <td><button onclick="calc(this)">+</button>
+                    <span>1</span>
+                    <button onclick="calc(this)">-</button></td>
+                <td>含</td>
+                <td><hey>&yen;831</hey></td>
+                <td><hey>&yen;831</hey></td>
+
+            </tr>
+
+            <tr>
+                <td><img src="上海虹桥雅高美爵酒店会场、会议厅、宴会厅、团队房预订_电话_地址-【携程会议酒店】_files/230h0c00000065zvyA454_R_95_95.jpg" alt=""/></td>
+                <td>大床</td>
+                <td >有</td>
+                <td>
+                    不含
+                </td>
+                <td><button onclick="calc(this)">+</button>
+                    <span>1</span>
+                    <button onclick="calc(this)">-</button></td>
+                <td>含</td>
+                <td><hey>&yen;831</hey></td>
+                <td><hey>&yen;831</hey></td>
+
+            </tr>
+
+            <tr>
+                <td><img src="上海虹桥雅高美爵酒店会场、会议厅、宴会厅、团队房预订_电话_地址-【携程会议酒店】_files/230o0g0000007uanpA059_R_95_95.jpg" alt=""/></td>
+                <td>大床</td>
+                <td>有</td>
+                <td>
+                    不含
+                </td>
+                <td><button onclick="calc(this)">+</button>
+                    <span>1</span>
+                    <button onclick="calc(this)">-</button></td>
+                <td>含</td>
+                <td><hey>&yen;1065</hey></td>
+                <td><hey>&yen;1065</hey></td>
+
+            </tr>
+
+            <tr>
+            <td><img src="上海虹桥雅高美爵酒店会场、会议厅、宴会厅、团队房预订_电话_地址-【携程会议酒店】_files/230w0c0000006603k9914_R_95_95.jpg" alt=""/></td>
+            <td>双人</td>
+            <td>有</td>
+            <td>
+                含
+            </td>
+            <td><button onclick="calc(this)">+</button>
+                <span>1</span>
+                <button onclick="calc(this)">-</button></td>
+            <td>含</td><td><hey>&yen;1065</hey></td>
+                <td><hey>&yen;1065</hey></td>
+
+            </tr>
+            </tbody>
+
+            <tfoot>
+
+            <!--<td colspan="3">总计</td>-->
+            <!--<td colspan="3" >&yen;<span class="prc">5987</span></td>-->
+
+            <!--跨列colspan-->
+            <!--跨行rowspan-->
+            </tfoot>
+
+        </table>
+        <button id="dada">+加入购物车</button>
+    </div>
+
+    <div class="jqzoom">
+        <h1>交通地图</h1>
+        <img src="images/2017-06-15_112334_03.jpg" jqimg="images/2017-06-15_112334_03.jpg">
+    </div>
+
+        <ul class="hotel-info-list">
+
+
+            <h1>酒店设施</h1>
+
+            <li>浴室：24小时热水、拖鞋、浴衣、浴缸、独立淋浴间、吹风机、免费洗漱用品(6样以上)</li>
+
+
+            <li>便利设施：多种规格电源插座、空调、普通分体空调、书桌、房内保险箱、沙发、衣柜/衣橱、220V电压插座、电子秤、闹钟、针线包、单一规格电源插座、遮光窗帘、手动窗帘、床具:鸭绒被、备用床具、房间内高速上网、客房WIFI覆盖免费</li>
+
+
+            <li>食品和饮品：电热水壶、免费瓶装水、小冰箱、迷你吧</li>
+
+
+            <li>媒体/科技：国内长途电话、国际长途电话、有线频道、液晶电视机</li>
+
+
+
+            <li>服务及其他：唤醒服务、语音留言。</li>
+
+
+
+        </ul>
+
+
+
+    <div id="clear"></div>
+    <div id="footer">
+        <div class="nt">
+            <p>网站技术支持：盛邦升华泊头校区范志敏</p>
+            <p>电话：86106522861 传真：861065380018  邮箱：info@annxhibition</p>
+            <p>备案号：京ICP备070348882号</p>
+        </div>
+    </div>
+
+</div>
+<script src="jquery-1.11.1.min.js"></script>
+
+<script src="hehe.js"></script><script src="呵呵/jquery.jqzoom.js"></script>
+<script>
+    $(".jqzoom").jqueryzoom({xzoom: 400,yzoom: 400,offset: 10,position: "right"})
+
+//    $(window).scroll(function(){
+//        if($(window).scrollTop()>100){
+//            $("div.zoomdiv").fadeIn(1000);
+//        }else{
+//            $("div.zoomdiv").fadeOut(1000)
+//        }
+//
+//    })
+//
+//    $(window).scroll(function(){
+//        if($(window).scrollTop()>100){
+//            $("div.jqZoomPup").fadeIn(1000);
+//        }else{
+//            $("div.jqZoomPup").fadeOut(1000)
+//        }
+//
+//    })
+</script>
+</body>
+</html>

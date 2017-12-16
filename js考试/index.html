@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{margin:0;padding:0}
+		a{text-decoration:none }
+		li{list-style: none}
+		#clear{clear:both}
+		#warper{
+			width:100%;
+		}
+		#top{
+			width: 1224px;
+			margin:0 auto;
+		}
+		#nav{
+			width: 1224px;
+			height: 40px;
+			background-color: #e3393c;
+			margin:0 auto;
+			margin-top: 33px;
+		}
+		#nav ul{
+			margin-left: 30px;
+		}
+		#nav li{
+			float: left;
+			padding:14px 27px;
+		}
+		#banner{
+			width: 1225px;
+			height: 446px;
+			position: relative;
+			margin:0 auto;
+			margin-top: 40px;
+		}
+		#banner ul li{
+			display: none;
+
+		}
+		#banner .haha{
+			display:block;
+		}
+		#dian li{
+			display: none;
+			height: 30px;
+			line-height: 30px;
+
+		}
+		#dian li span{
+			width: 20px;
+			height: 20px;
+			color:white;
+			text-align: center;
+			line-height:20px;
+			border-radius: 70%;
+			display: block;
+			margin-top: 5px;
+			margin-right: 5px;
+		}
+		#dian .ni{
+			width: 30px;
+			height: 30px;
+			position: absolute;
+			bottom:-210px;
+			right:700px;
+			opacity: 0.5;
+		}
+		.ni{
+			background: red;
+		}
+		#main{
+			width: 1212px;
+			height: 368px;
+			background-color: #fef4e8;
+			margin:0 auto;
+		}
+		table{
+			width: 1225px;
+
+		}
+		th{
+			padding-top: 20px;
+
+		}
+		table{
+			font-family: 方正书宋简体;
+			font-size: 10px;
+			text-align: center ;
+
+		}
+		#top button{
+			float: right;
+		}
+	</style>
+</head>
+<body>
+<div id="warper">
+
+	<div id="top"><button id="hq" onclick="hide()">X</button><img src="img/top.png" alt=""/>
+
+	</div>
+	<div id="nav">
+		<ul>
+			<li>电脑办公</li>
+			<li>生活电器</li>
+			<li>手机通讯</li>
+			<li>大家电</li>
+			<li>智能数码</li>
+			<li>饮料酒水</li>
+			<li>家居家装</li>
+			<li>母婴童装</li>
+			<li>食品生鲜</li>
+			<li>滆湖家禽</li>
+		</ul>
+	</div>
+	<div id="banner">
+		<ul>
+			<li class="haha"><img src="img/banner1.jpg" alt=""/></li>
+			<li><img src="img/banner2.jpg" alt=""/></li>
+		</ul>
+	</div>
+	<div id="dian">
+		<ul>
+			<li><span class="ni">1</span></li>
+			<li><span num="1">2</span></li>
+		</ul>
+	</div>
+	<div id="main">
+	<table>
+
+		<thead>
+		<tr>
+			<th>商品</th>
+			<th>概述</th>
+			<th>单价</th>
+			<th>数量</th>
+			<th>小计</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td><img src="img/product01.png" alt=""/></td>
+			<td>华为HUAWEI Nova青春版4GB+64GB 阴郁粉 移动联通电信4G手机</td>
+			<td>&yen;1789.00</td>
+			<td>
+				<button onclick="calc(this)">+</button>
+				<span>1</span>
+				<button onclick="calc(this)">-</button>
+			</td>
+			<td>&yen;1789.00</td>
+		</tr>
+
+		<tr>
+			<td><img src="img/product02.png" alt=""/></td>
+			<td>华为HUAWEI Nova青春版4GB+64GB 阴郁粉 移动联通电信4G手机</td>
+			<td >&yen;1999.00</td>
+			<td>
+				<button onclick="calc(this)">+</button>
+				<span>1</span>
+				<button onclick="calc(this)">-</button>
+			</td>
+			<td>&yen;1999.00</td>
+		</tr>
+
+		<tr>
+			<td><img src="img/product03.png" alt=""/></td>
+			<td>华为HUAWEI Nova青春版4GB+64GB 阴郁粉 移动联通电信4G手机</td>
+			<td>&yen;2199.00</td>
+			<td>
+				<button onclick="calc(this)">+</button>
+				<span>1</span>
+				<button onclick="calc(this)">-</button>
+			</td>
+			<td>&yen;2199.00</td>
+		</tr>
+		</tbody>
+
+		<tfoot>
+		<td colspan="3">总计</td>
+		<td>&yen;5987.00</td>
+		<!--跨列colspan-->
+		<!--跨行rowspan-->
+		</tfoot>
+	</table>
+</div>
+	<script>
+		var qq=document.getElementById("top")
+		function hide(){
+			qq.style.display="none"
+		}
+		var ha=document.getElementById("banner")
+				.firstElementChild
+				.children;
+
+		var bo=document.getElementById("dian")
+				.firstElementChild
+				.children;
+		var lun=document.getElementById("banner")
+		var q=0;
+		var timer;
+		function run(){
+			timer=setInterval(function(){
+				//停止计时器用clearIterval(timer);
+				ha[q].removeAttribute("class");
+				bo[q]
+						.firstElementChild
+						.removeAttribute("class");
+				q++;
+				if(q>=ha.length){
+					q=0;
+				}
+				ha[q].setAttribute("class","haha")
+				bo[q].firstElementChild
+						.setAttribute("class","ni")
+			},2000);
+
+		}
+		run();
+
+		lun.onmouseover=function(){
+			clearInterval(timer);
+		};
+		lun.onmouseout=function(){
+			run();
+		}
+
+		var i=document.getElementById("nav").children[0].children
+
+		for(var u=0;u< i.length;u++){
+			i[u].onmouseover=function(){
+				this.style.background="#fff"
+			}
+			i[u].onmouseout=function(){
+				this.style.background=""
+			}
+		}
+		function calc(btn){
+
+			var span=btn.parentElement
+					.querySelector("span")
+			var n=span.innerHTML;
+
+			if(btn.innerHTML=="+"){
+				n++;
+			}else if(n>1){
+				n--
+			}else{
+				n=1
+			}
+
+			span.innerHTML=n;
+
+
+
+			var price=btn.parentElement
+					.previousElementSibling
+					.innerHTML
+					.slice(1);
+
+
+			var subtotal=price*n;
+
+			btn.parentElement
+					.nextElementSibling
+					.innerHTML="&yen;"+subtotal
+							.toFixed(2)
+
+
+			var tds=document
+					.querySelectorAll("tbody tr td:last-child")
+
+
+			for(var i=0,total=0;i<tds.length;i++){
+
+
+				total+=
+						parseFloat(tds[i].innerHTML.slice(1))
+				console.log(typeof(total));
+			}
+
+			document
+					.querySelector("tfoot tr td:last-child")
+					.innerHTML="&yen;"+total.toFixed(2)
+		}
+		</script>
+</div>
+</body>
+</html>

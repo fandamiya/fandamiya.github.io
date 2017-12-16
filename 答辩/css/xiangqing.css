@@ -1,0 +1,371 @@
+#clear{clear:both}
+        *{margin:0; padding:0;}
+        li{list-style: none}
+        a{text-decoration: none}
+        #warper{
+            width: 100%;
+            background: url(../images/1444ad5a57f3f5463542f13cdfe52c58642395bb16b18-dRtQCQ_fw658.jpg)no-repeat;
+            background-size:cover;
+            margin:0 auto;
+            overflow: hidden;
+        }
+        #header{
+            width: 1280px;
+            height: 180px;
+            margin:0 auto;
+        }
+        #nav{
+            width: 900px;
+            height: 60px;
+            float: left;
+            margin-top: 50px;
+        }
+        #nav li {
+            float: left;
+            padding: 18px 20px ;
+            margin-left: 10px;
+            background: #ccc;
+            border-radius: 10px 10px 0 0;
+
+
+        }
+        #nav li a{
+            color:#000;
+            font-family: 微软雅黑;
+            font-size: 17px;
+        }
+        #nav li:hover{
+            background: none;
+            color:#000;
+            border-bottom: 3px solid orange;
+        }
+        #banner{
+            overflow: hidden;
+            margin:0 auto;
+            width:500px;
+            height: 280px;
+            position: relative;
+            float: left;
+            margin-top: 30px;
+        }
+        #banner img{
+            float: left;
+            width:500px;
+            height: 280px;
+        }
+
+        #pic{
+            width: 4000px;
+            height: 280px;
+        }
+        /*.hehe li{*/
+            /*list-style: none;*/
+            /*width: 15px;*/
+            /*height: 15px;*/
+            /*background: #000;*/
+            /*border-radius: 50%;*/
+            /*display:block;*/
+            /*margin-right: 8px;*/
+            /*float: left;*/
+        /*}*/
+        /*.hehe{*/
+            /*position: absolute;*/
+            /*top:750px;*/
+            /*left: 300px;*/
+            /*display: none;*/
+        /*}*/
+        /*.hehe .mini{*/
+            /*background: red;*/
+        /*}*/
+        h1{
+            text-align: center;
+            font-family:微软雅黑;
+            color: #584f45;
+
+        }
+
+        /*.img img{*/
+            /*width: 374px;*/
+            /*height: 354px;*/
+            /*border:2px solid #ccc;*/
+        /*}*/
+        #footer{
+            width: 100%;
+            height: 200px;
+            background: #242424;
+            margin-top: 400px;
+        }
+        .nt{
+            text-align: center;
+            color:#fff;
+            padding-top: 50px;
+            font-family:黑体 ;
+        }
+        .nt p{
+            padding-top: 10px ;
+        }
+        .anli p{
+            text-align: center;
+            font-family:黑体 ;
+            color:#ccc;
+        }
+        h3{
+            color:orange;
+            font-style: italic;
+            font-size:30px ;
+            text-align: center;
+        }
+        #main p{
+            font-family: 黑体;
+            font-size: 18px;
+            color: #242424;
+            margin-top: 30px;
+
+        }
+        #main{
+            width: 1000px;
+            height: 800px;
+            margin:0 auto;
+            margin-top: 30px;
+        }
+        .haha{
+            position: fixed;
+            width: 200px;
+            height: 320px;
+            bottom: 200px;
+            right: 0px;
+            display: none;
+            text-align: center;
+            background: #c70026;
+            border-radius: 0px 40px 0px 40px ;
+            z-index: 333;
+        }
+        h4{
+            font-family: Trajan Pro;
+            color: #fff;
+            font-size: 30px;
+            margin-top: 30px;
+        }
+        h5{
+            font-family: fantasy;
+            color: #fff;
+            font-size: 35px;
+            margin-top: 10px;
+        }
+        .haha a{
+            text-decoration: none;
+            color: #000;
+            width: 64px;
+        }
+        .haha p{
+            font-family: fantasy;
+            color: #fff;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+        .kaka{
+            width: 200px;
+            height: 200px;
+            border-radius: 30px;
+            display: none;
+            text-align: center;
+            position:fixed;
+            bottom:300px;
+            left:0px;
+            z-index: 333;
+        }
+        .kaka img{
+            width: 100%;
+            height: 100%;
+        }
+        .kaka a{
+            text-decoration: none;
+            color: #000;
+            width: 64px;
+        }
+        #top{
+            width: 1200px;
+            margin:0 auto;
+        }
+        #fuck a{
+            font-size: 20px;
+            font-family: fantasy;
+            color:#2496e6 ;
+            margin-top: 10px;
+
+        }
+
+        #fuck p{
+            font-size: 20px;
+            font-family: fantasy;
+            color:#000 ;
+            margin-top: 10px;
+
+        }
+        #top{
+            width: 1050px;
+            height: 300px;
+        }
+        #top-right{
+            width: 500px;
+            height: 300px;
+
+            /*background: #000;*/
+            float: right;
+        }
+        #top-right hey{
+            font-size:16px;
+            color:#443e3e;
+            font-family:宋体;
+        }
+        #top-right p{
+            padding-top:10px;
+        }
+        #top-right button{
+            background: #39a7ee;
+            width: 90px;
+            height: 30px;
+            font-size: 14px;
+            color:#fff;
+            border-radius: 5px;
+            float: right;
+        }
+        .heihei {
+            width: 700px;
+            height: 50px;
+            padding-top: 20px;
+            /*background: #000;*/
+
+        }
+        .heihei li{
+            float: left;
+            padding:12px 20px;
+            border: 1px solid #4e4c4c;
+        }
+        .heihei li a{
+            color:#333333;
+            font-size: 15px;
+
+        }
+        .heihei li:hover{
+            border:none;
+            border-top:5px solid deepskyblue;
+            font-family:迷你简菱心;
+            color:#000;
+        }
+        table{
+            width: 1000px;
+            margin-top: 30px;
+
+        }
+        th{
+            padding-top: 20px;
+            font-family: 微软雅黑;
+            font-size: 20px;
+            /*border:1px solid #000;*/
+        }
+        td{
+            font-family: 方正细珊瑚简体，方正简体;
+            font-size: 15px;
+            padding-top: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        table{
+            font-family: 方正书宋简体;
+            font-size: 10px;
+            text-align: center ;
+            border:1px solid #ccc;
+        }
+        #top button{
+            float: right;
+        }
+        #dangxin hey{
+            color:orangered;
+            font-size: 17px;
+            font-family: Hobo Std;
+        }
+        #dada{
+            color:#fff;
+            font-size: 25px;
+            background: orangered;
+            width: 200px;
+            height: 70px;
+            border-radius: 10px;
+            font-family: 方正少儿简体,微软雅黑;
+            margin-top: 40px;
+            margin-left: 60px;
+        }
+        .jqzoom{
+            width: 1147px;
+            height: 810px;
+            margin:0 auto;
+        }
+        .jqzoom img{
+            margin-top: 30px;
+        }
+        .hotel-info-list{
+            width: 1000px;
+            height:380px;
+            /*margin-top: 50px;*/
+            margin:0 auto;
+        }
+        .hotel-info-list li{
+            font-family: 微软雅黑;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+        /*div.zoomdiv {*/
+            /*z-index:999;*/
+            /*position: absolute;*/
+            /*top:0px;*/
+            /*left:0px;*/
+            /*width: 200px;*/
+            /*height: 200px;*/
+            /*background: #ffffff;*/
+            /*border:1px solid #CCCCCC;*/
+            /*display:none;*/
+            /*text-align: center;*/
+            /*overflow: hidden;*/
+        /*}*/
+        /*div.jqZoomPup {*/
+            /*z-index : 999;*/
+            /*visibility: hidden;*/
+            /*position: absolute;*/
+            /*top:0px;*/
+            /*left:0px;*/
+            /*width : 50px;*/
+            /*height : 50px;*/
+            /*border: 1px solid #aaa;*/
+            /*/!*background: #ffffff url(../images/zoomlens.gif) 50% top  no-repeat;*!/*/
+            /*opacity: 0.5;*/
+            /*-moz-opacity: 0.5;*/
+            /*-khtml-opacity: 0.5;*/
+            /*filter: alpha(Opacity=50);*/
+        /*}*/
+        #qaqa{
+            width: 1000px;
+            height: 300px;
+            margin:0 auto;
+            margin-top:80px;
+            /*background: #000;*/
+        }
+        #qaqa ul{
+            width: 800px;
+            height: 300px;
+            margin:0 auto;
+        }
+        #qaqa li{
+            width: 100px;
+            height: 100px;
+            float: left;
+            padding:50px;
+
+            margin: auto;
+            /*background: orange;*/
+        }
+        #qaqa a{
+            color:orange;
+            font-size: 24px;
+            font-family: 方正粗圆简体;
+        }
