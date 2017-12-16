@@ -383,6 +383,7 @@
             }
         }
         @media all and (max-width:599px) {
+            
             #banner{
                 display: none;
             }
