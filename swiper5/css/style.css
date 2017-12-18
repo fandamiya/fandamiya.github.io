@@ -73,6 +73,7 @@ body {
     }
     to{
         padding-left:5%;
+        
     }
 }
 
@@ -148,12 +149,12 @@ body {
 
 
 .s1 .img9{
-    width: 52%;
-    height: 100%;
-    overflow: hidden;
+    width: 50%;
+    height: 90%;
     background: url("../img/15.png");
-    margin:0 auto;
+    margin:auto;
     position: relative;
+    background-size:cover ;
     margin-top: 20px;
     color:#070023;
     font-weight:bold;
