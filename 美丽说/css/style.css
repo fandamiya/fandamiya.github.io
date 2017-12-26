@@ -1,0 +1,289 @@
+*{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style: none;
+}
+.warper{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 90%;
+    height: 40px;
+    margin:auto;
+    margin-top: 10px;
+}
+.header div{
+    float: left;
+}
+
+.header .yi{
+    width: 15%;
+
+}
+.header .yi img{
+    width: 30px;
+    height: 30px;
+}
+.header .er img{
+    position: absolute;
+    top:12px;
+    left:79px;
+    width: 20px;
+}
+.header input{
+    /*background: url(../images/2.png)no-repeat 0.2rem center;*/
+    background-size:auto 1rem;
+    width: 230px;
+    height: 23px;
+    border-radius: 5px;
+    background: #f4f4f4;
+    float: left;
+}
+.header .san img{
+    width: 25px;
+}
+.header .san{
+    float: right;
+}
+.main-center .hehe .row{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.main-center .hehe .col-xs-2{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.main-center {
+    width: 100%;
+    height: 100%;
+    border-bottom: 10px solid #e5e6e6;
+}
+.hehe h3{
+    font-size: 15px;
+text-align: center;
+}
+.hehe p{
+    font-size: 10px;
+    text-align: center;
+}
+.haha h2{
+    font-size: 15px;
+    font-family:微软雅黑;
+}
+.haha img{
+    width: 130%;
+}
+
+.haha .row{
+    width: 100%;
+    height: 100%;
+    margin:auto;
+}
+.haha .text{
+    width:100%;
+    height: 100%;
+}
+.haha .text l{
+    font-size:12px;
+    color:#abacad;
+}
+.haha div .container{
+    width: 100%;
+    padding-left:0;
+    padding-right: 0;
+    border-bottom: 2px solid #ebebeb;
+}
+.haha div .container .col-xs-7{
+    margin-left:15px;
+}
+.haha div{
+    margin-top:6px;
+    margin-bottom: 10px;
+}
+.haha .yi p{
+    width: 40%;
+    border-radius: 10px;
+    background: #cccccc;
+}
+.haha .yi span{
+    font-size: 8px;
+    color:#fff;
+}
+.haha .yi button{
+    float: right;
+    margin-top: -33px;
+    margin-right:25px;
+    border:1px solid #e40046;
+    color:#e40046;
+    background: #fff;
+    border-radius: 10px;
+    padding:2px 5px;
+}
+.haha .yi button:hover{
+    background: #e40046;
+    color:#fff;
+}
+/*lunbo*/
+
+
+#lun{
+    width: 100%;
+    height: 50%;
+    margin:auto;
+    position: relative;
+}
+#lun ul li img{
+    width: 100%;
+    height: 50%;
+}
+#lun>ul>li{
+    display: none;
+}
+#lun ul .active{
+    display: block;
+}
+
+#lun #num_list{
+    width: 50%;
+    height: 30px;
+    position: relative;
+    bottom: -20px;
+    opacity: 0.5;
+    z-index: 99;
+}
+
+#num_list li{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    top: -50px;
+    left: 110px;
+}
+
+#num_list li span{
+    width: 7px;
+    height: 7px;
+    background:#000;
+    text-align: center;
+    line-height:20px;
+    border-radius: 50%;
+    display: block;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+#lun #num_list li .active_num{
+    background: red;
+}
+.main .main-top .row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.main .main-top .col-xs-3 img{
+    width: 100%;
+}
+.main .main-top .col-xs-3{
+    padding-right: 6px;
+    padding-left: 6px;
+    text-align: center;
+}
+.main .main-top{
+    padding-bottom:30px;
+    border-bottom: 10px solid #efefef;
+}
+.main-center .haha .text p{
+    font-size: 15px;
+}
+.main-center .haha .text span{
+    color:#e40046;
+    font-size:18px;
+}
+.mainbar img{
+    width: 100%;
+    height: 100%;
+}
+.mainbar h4{
+    text-align: center;
+}
+.mainbar h4 a{
+    color:#e40046;
+}
+.mainbar{
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 10px solid #e5e6e6;
+}
+#xuanka ul{
+    width: 80%;
+    height: 100%;
+    margin:auto;
+}
+#xuanka ul::after{
+    clear: both;
+    display: table;
+    content:'';
+}
+#xuanka li{
+    float: left;
+    line-height: 30px;
+    text-align: center;
+    width: 30%;
+}
+
+#dv1{
+    background: pink;
+    display:block;
+}
+#dv2{
+    background: yellow;
+    display:none;
+}
+#dv3{
+    background: green;
+    display:none;
+}
+#dv4{
+    display:none;
+}
+.li0{
+    border-bottom: 2px solid #E40046 ;
+}
+.li1{
+    border-bottom: 2px solid #E40046 ;
+}
+.li2{
+    border-bottom: 2px solid #E40046 ;
+}
+
+#div1,#div2,#div3,#div4{
+    width: 100%;
+    margin:auto;
+}
+
+.main-bottom .er{
+    width: 45%;
+    height: 100%;
+    float: left;
+    margin-left:10px;
+    margin-top: 10px;
+}
+.main-bottom p{
+    text-align: center;
+    font-size: 12px;
+    color:#9e9e9e;
+}
+.main-bottom span{
+    font-size:10px;
+    color:#E40046;
+    text-align: center;
+}
+.er img{
+    width: 100%;
+}
