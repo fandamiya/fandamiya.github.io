@@ -287,3 +287,12 @@ text-align: center;
 .er img{
     width: 100%;
 }
+.baibai{
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    z-index:99;
+}
+.baibai img{
+    width: 100%;
+}
