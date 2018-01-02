@@ -296,3 +296,21 @@ text-align: center;
 .baibai img{
     width: 100%;
 }
+.hehe a{
+    color:#E40046;
+}
+.baibai{
+    background: #fff;
+}
+.baibai img{
+    width: 20px;
+    height: 20px;
+    margin-left: 37%;
+    margin-top:10%;
+}
+.baibai p{
+    text-align: center;
+}
+.baibai span{
+    color:#E40046;
+}
