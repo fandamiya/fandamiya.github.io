@@ -68,4 +68,6 @@ $(function(){
         $("#div").eq(i).show().siblings().not("ul").hide()
         $(this).attr("class","li"+i).siblings().removeAttr("class")
     })
+
 })
+

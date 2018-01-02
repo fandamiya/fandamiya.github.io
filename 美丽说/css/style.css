@@ -33,15 +33,15 @@ li{
 }
 .header .er img{
     position: absolute;
-    top:12px;
-    left:79px;
+    top:2%;
+    left:20%;
     width: 20px;
 }
 .header input{
     /*background: url(../images/2.png)no-repeat 0.2rem center;*/
     background-size:auto 1rem;
     width: 230px;
-    height: 23px;
+    height: 30px;
     border-radius: 5px;
     background: #f4f4f4;
     float: left;
