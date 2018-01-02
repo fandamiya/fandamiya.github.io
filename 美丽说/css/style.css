@@ -301,6 +301,10 @@ text-align: center;
 .hehe a{
     color:#E40046;
 }
+.main{
+    width: 100%;
+    height: 100%;
+}
 .baibai{
     background: #fff;
 }
@@ -315,7 +319,4 @@ text-align: center;
 }
 .baibai span{
     color:#E40046;
-}
-.main{
-    margin-bottom:70px;
 }

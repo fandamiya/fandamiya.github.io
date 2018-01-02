@@ -64,7 +64,7 @@ $(function(){
     // 		$("this").toggleClass("div")
     // 	})
     // index是索映值
-    $("#xuanka li").click(function(){
+    $(".main-bottom #xuanka li").click(function(){
         $("#div").eq(i).show().siblings().not("ul").hide()
         $(this).attr("class","li"+i).siblings().removeAttr("class")
     })
