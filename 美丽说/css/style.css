@@ -38,13 +38,15 @@ li{
     width: 20px;
 }
 .header input{
-    /*background: url(../images/2.png)no-repeat 0.2rem center;*/
-    background-size:auto 1rem;
+    background-image: url(../images/2.png);
     width: 230px;
     height: 30px;
     border-radius: 5px;
     background: #f4f4f4;
     float: left;
+}
+.header .er{
+
 }
 .header .san img{
     width: 25px;
