@@ -1,0 +1,51 @@
+.warper{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 90%;
+    height: 40px;
+    margin:auto;
+    margin-top: 10px;
+}
+.header div{
+    float: left;
+}
+
+.header .yi{
+    width: 15%;
+
+}
+.header .yi img{
+    width: 30px;
+    height: 30px;
+}
+.header .er img{
+    position: absolute;
+    top:2%;
+    left:20%;
+    width: 20px;
+}
+.header input{
+    background-image: url(../images/2.png);
+    width: 230px;
+    height: 30px;
+    border-radius: 5px;
+    background: #f4f4f4;
+    float: left;
+}
+.header .er{
+
+}
+.header .san img{
+    width: 25px;
+}
+.header .san{
+    float: right;
+}
+.main-top p{
+    text-align: center;
+}
+.main-top img{
+    width: 100%;
+}

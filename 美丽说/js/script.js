@@ -58,18 +58,18 @@ $(window).scroll(function(){
     if($(window).scrollTop()>2000){
         $(".baibai").fadeOut(1000);
     }else{
-        $(".baibai").fadeIn(1000)
+        $(".baibai").fadeIn(1000);
     }
 
 })
 
 $(window).scroll(function(){
     if($(window).scrollTop()>200){
-        $(".top").fadeIn(1000);
+        $(".tops").fadeIn(1000);
     }else{
-        $(".top").fadeOut(1000)
+        $(".tops").fadeOut(1000)
     }
-    $(".top img").click(function(){
+    $(".tops a").click(function(){
         $("body").animate({"scrollTop":"0"},2000)
     })
 })

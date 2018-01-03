@@ -21,61 +21,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="liebiao.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/liebiao.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33099824">
-              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="liebiao.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/liebiao.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.833333">
-              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="展示.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/展示.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4">
-              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zhangshi.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/zhangshi.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.433333">
-              <caret line="269" column="19" selection-start-line="269" selection-start-column="19" selection-end-line="269" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.7">
-              <caret line="24" column="10" selection-start-line="22" selection-start-column="3" selection-end-line="24" selection-end-column="10" />
+            <state vertical-scroll-proportion="9.1">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="回到顶部.html" pinned="false" current-in-tab="false">
-        <entry file="file://E:/好好学习天天向上/jq素材/回到顶部.html">
+      <file leaf-file-name="fenlei.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fenlei.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.633333">
-              <caret line="62" column="10" selection-start-line="53" selection-start-column="8" selection-end-line="62" selection-end-column="10" />
+            <state vertical-scroll-proportion="-16.7">
+              <caret line="86" column="10" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.933333">
+              <caret line="55" column="1" selection-start-line="15" selection-start-column="0" selection-end-line="55" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fenlei.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/fenlei.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.84304935">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,17 +65,7 @@
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="74" column="2" selection-start-line="65" selection-start-column="0" selection-end-line="74" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.233334">
-              <caret line="302" column="1" selection-start-line="294" selection-start-column="0" selection-end-line="302" selection-end-column="1" />
+              <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -106,9 +76,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -122,13 +92,15 @@
         <option value="$PROJECT_DIR$/js/script2.js" />
         <option value="$PROJECT_DIR$/css/zhangshi.css" />
         <option value="$PROJECT_DIR$/展示.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/js/script3.js" />
         <option value="$PROJECT_DIR$/liebiao.html" />
         <option value="$PROJECT_DIR$/css/liebiao.css" />
         <option value="$PROJECT_DIR$/liebiao.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/fenlei.html" />
+        <option value="$PROJECT_DIR$/css/fenlei.css" />
       </list>
     </option>
   </component>
@@ -138,10 +110,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="173" />
-    <option name="y" value="53" />
-    <option name="width" value="1302" />
-    <option name="height" value="762" />
+    <option name="x" value="800" />
+    <option name="width" value="800" />
+    <option name="height" value="860" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="添加" />
@@ -242,7 +213,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="173" y="53" width="1302" height="762" extended-state="0" />
+    <frame x="800" y="0" width="800" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -281,21 +252,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liebiao.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -578,50 +534,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/好好学习天天向上/jq素材/回到顶部.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.633333">
-          <caret line="62" column="10" selection-start-line="53" selection-start-column="8" selection-end-line="62" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/zhangshi.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.433333">
-          <caret line="269" column="19" selection-start-line="269" selection-start-column="19" selection-end-line="269" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/展示.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/script2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20965058">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.7">
-          <caret line="24" column="10" selection-start-line="22" selection-start-column="3" selection-end-line="24" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.233334">
-          <caret line="302" column="1" selection-start-line="294" selection-start-column="0" selection-end-line="302" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -634,26 +550,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/liebiao.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="2" selection-start-line="65" selection-start-column="0" selection-end-line="74" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.33099824">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/liebiao.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.833333">
+        <state vertical-scroll-proportion="0.7793345">
           <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liebiao.html">
+    <entry file="file://$PROJECT_DIR$/展示.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33099824">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        <state vertical-scroll-proportion="-0.073555164">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/zhangshi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7057793">
+          <caret line="269" column="19" selection-start-line="269" selection-start-column="19" selection-end-line="269" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/好好学习天天向上/jq素材/回到顶部.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1333333">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.933333">
+          <caret line="55" column="1" selection-start-line="15" selection-start-column="0" selection-end-line="55" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.1">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenlei.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.7">
+          <caret line="86" column="10" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/fenlei.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84304935">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>

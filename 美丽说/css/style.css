@@ -292,12 +292,13 @@ text-align: center;
 .main-bottom #dv1{
     margin-bottom:50px;
 }
-.top{
+.tops{
     position: fixed;
     bottom:70px;
     right:-30px;
     z-index:99;
+    display: none;
 }
-.top img{
+.tops img{
     width: 55%;
 }
