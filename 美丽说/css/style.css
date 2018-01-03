@@ -238,37 +238,6 @@ text-align: center;
     text-align: center;
     width: 30%;
 }
-
-#dv1{
-    background: pink;
-    display:block;
-}
-#dv2{
-    background: yellow;
-    display:none;
-}
-#dv3{
-    background: green;
-    display:none;
-}
-#dv4{
-    display:none;
-}
-.li0{
-    border-bottom: 2px solid #E40046 ;
-}
-.li1{
-    border-bottom: 2px solid #E40046 ;
-}
-.li2{
-    border-bottom: 2px solid #E40046 ;
-}
-
-#div1,#div2,#div3,#div4{
-    width: 100%;
-    margin:auto;
-}
-
 .main-bottom .er{
     width: 45%;
     height: 100%;
@@ -319,4 +288,16 @@ text-align: center;
 }
 .baibai span{
     color:#E40046;
+}
+.main-bottom #dv1{
+    margin-bottom:50px;
+}
+.top{
+    position: fixed;
+    bottom:70px;
+    right:-30px;
+    z-index:99;
+}
+.top img{
+    width: 55%;
 }

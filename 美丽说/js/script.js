@@ -54,20 +54,23 @@ for(var j=0;j<num_list.length;j++){
 }
 
 
-$(function(){
-    // $("ul li:eq(0)").click(
-    // 	function(){
-    // 		$("this").toggleClass("div")
-    // 	})
-    // $("ul li:eq(1)").click(
-    // 	function(){
-    // 		$("this").toggleClass("div")
-    // 	})
-    // index是索映值
-    $(".main-bottom #xuanka li").click(function(){
-        $("#div").eq(i).show().siblings().not("ul").hide()
-        $(this).attr("class","li"+i).siblings().removeAttr("class")
-    })
+$(window).scroll(function(){
+    if($(window).scrollTop()>2000){
+        $(".baibai").fadeOut(1000);
+    }else{
+        $(".baibai").fadeIn(1000)
+    }
 
+})
+
+$(window).scroll(function(){
+    if($(window).scrollTop()>200){
+        $(".top").fadeIn(1000);
+    }else{
+        $(".top").fadeOut(1000)
+    }
+    $(".top img").click(function(){
+        $("body").animate({"scrollTop":"0"},2000)
+    })
 })
 
