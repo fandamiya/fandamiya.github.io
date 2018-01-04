@@ -258,12 +258,7 @@ text-align: center;
 .er img{
     width: 100%;
 }
-.baibai{
-    width: 100%;
-    position: fixed;
-    bottom:0;
-    z-index:99;
-}
+
 .baibai img{
     width: 100%;
 }
@@ -276,6 +271,10 @@ text-align: center;
 }
 .baibai{
     background: #fff;
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    z-index:99;
 }
 .baibai img{
     width: 20px;
@@ -288,6 +287,9 @@ text-align: center;
 }
 .baibai span{
     color:#E40046;
+}
+.baibai a{
+    color: #343434;
 }
 .main-bottom #dv1{
     margin-bottom:50px;

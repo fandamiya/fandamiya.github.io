@@ -49,3 +49,47 @@
 .main-top img{
     width: 100%;
 }
+
+.main h4{
+    margin-left:10px;
+}
+.main-top .col-xs-3{
+    width: 25%;
+    border-left:1px solid #9A9A9A;
+    border-top:1px solid #9A9A9A;
+    /*padding-left:10px;*/
+    /*padding-right:10px ;*/
+}
+.baibai img{
+    width: 100%;
+}
+.hehe a{
+    color:#E40046;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.baibai{
+    background: #fff;
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    z-index:99;
+}
+.baibai img{
+    width: 20px;
+    height: 20px;
+    margin-left: 37%;
+    margin-top:10%;
+}
+.baibai p{
+    text-align: center;
+    margin-top: 5px;
+}
+.baibai span{
+    color:#E40046;
+}
+.baibai a{
+    color:#343434;
+}
