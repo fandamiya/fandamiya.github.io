@@ -1,0 +1,382 @@
+*{margin:0;padding:0;  }
+li{list-style: none;}
+a{text-decoration: none}
+#clear{clear: both}
+
+.warper{
+    width: 100%;
+    height: 100%;
+}
+
+
+#header_bg{
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+}
+.logo img{
+    width: 80%;
+    height: 70%;
+}
+
+#nav {
+    width: 196px;
+    height: 53px;
+    /*background: pink;*/
+    margin:auto;
+    margin-top: -23px;
+    color: white;
+}
+#header_bg .col-md-2{
+    float: right;
+}
+#nav a{
+    color: #fff;
+}
+#nav a:hover{
+    font-family: 迷你简菱心;
+}
+#nav li{
+    padding:14px;
+    float: left;
+    font-family: 方正黑体简体;
+    font-size: 16px;
+
+}
+
+#header-right{
+
+    float: right;
+
+}
+#header_bg::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+#header-right li{
+    float: left;
+    margin-top: 14px;
+}
+
+#main{
+    width: 90%;
+    height: 100%;
+    margin:auto;
+    /*background: pink;*/
+}
+#main-left{
+    width:49%;
+    height: 100%;
+    /*background: blue;*/
+    float: left;
+}
+#main::after{
+    clear:both;
+    display: table;
+    content: '';
+}
+#one{
+    width: 100%;
+    height: 470px;
+    background: url(../images/Push_majeur_SUBLIMAGE-LE-TEINT.jpg);
+    background-size:cover;
+    border: 1px #e1dede solid;
+    margin-top: 24px;
+}
+.one-text{
+    margin-left: 82px;
+    margin-top: 32px;
+}
+#main h1{
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+#main p{
+    font-family: 迷你简汉真广标;
+    font-size: 30px;
+}
+#one button{
+    padding: 3px 9px;
+
+    margin-top: 20px;
+    background: #fff;
+    border:1px #e1dede solid;
+}
+#two{
+    width: 100%;
+    height: 790px;
+    background: #fff;
+    border:1px #e1dede solid;
+    margin-top: 18px;
+
+}
+
+#main h3{
+    width: 100%;
+    height: 25px;
+    font-family: Cambria;
+    font-size: 14px;
+    background: #000;
+    color: white;
+    padding-top: 2px;
+}
+#two-2{
+    width: 100%;
+    height: 750px;
+    border:1px #e1dede solid;
+    background: url(../images/raink_push_lips_double.jpg);
+    background-size:cover;
+    margin-top: 12px;
+}
+#two-2::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.two-text{
+    margin-top: 582px;
+    float: right;
+    margin-right:20px;
+}
+
+
+#two button{
+    background: #fff;
+    border:1px #e1dede solid;
+    width: 66px;
+    height: 30px;
+    /*	margin-left:140px;*/
+    margin-top: 20px;
+}
+#three{
+    width: 100%;
+    height: 374px;
+    margin-top: 18px;
+}
+#three-3{
+    width: 100%;
+    height: 338px;
+    background: url(../images/eyes_dimensions_small.jpg);
+    background-size:cover;
+    margin-top: 12px;
+}
+#three-3::after{
+    clear: both;
+    display: table;
+    content:"";
+}
+#three p{
+    float: right;
+    margin-top: 10px;
+}
+
+#three button{
+    background: #fff;
+    border:1px #e1dede solid;
+    padding: 3px 9px;
+
+    float: right;
+    margin-top: 60px;
+    margin-right: -150px;
+}
+#seven{
+    width: 100%;
+    height: 790px;
+    background: #fff;
+    border:1px #e1dede solid;
+    margin-top: 18px;
+
+}
+#seven{
+    width: 100%;
+    height: 374px;
+    margin-top: 18px;
+}
+#seven-3{
+    width: 100%;
+    height: 338px;
+    background: url(../images/beautytalks3_small.jpg);
+    background-size:cover;
+    margin-top: 12px;
+}
+#seven p{
+    color: white;
+    padding-top: 200px;
+}
+#seven button{
+    padding: 3px 9px;
+
+    background: #fff;
+    border:1px #e1dede solid;
+    margin-top: 20px;
+}
+#main-right{
+    height: 100%;
+    width:49%;
+
+    /*background: orange;*/
+    float: right;
+}
+#four{
+    width: 100%;
+    height: 374px;
+    margin-top: 18px;
+}
+#four-4{
+    width: 100%;
+    height: 337px;
+    background: url(../images/collectionlibre_push_simple_nails.jpg);
+    background-size:cover;
+    margin-top: 12px;
+}
+.four-text{
+
+    padding-top: 40px;
+    margin-left: 40px;
+}
+
+#four p{
+    margin-top: 100px;
+}
+#four button{
+    background: #fff;
+    border:1px #e1dede solid;
+    padding: 3px 9px;
+
+    margin-top: 20px;
+}
+#five{
+    width: 100%;
+    height: 374px;
+    padding-top: 43px;
+}
+#five-5{
+    width: 100%;
+    height: 337px;
+    background: url(../images/collectionlibre_push_simple_complexion.jpg);
+    background-size:cover;
+    margin-top: 12px;
+}
+
+
+
+#five button{
+    border:1px #e1dede solid;
+    padding: 3px 9px;
+
+    margin-top: 20px;
+    background: #fff;
+}
+#eight{
+    width: 100%  ;
+    height: 374px;
+    padding-top: 60px;
+}
+#eight-5{
+    width: 100%;
+    height: 337px;
+    background: url(../images/PUSH_accesoires.jpg);
+    background-size:cover;
+    margin-top: 12px;
+}
+.eight-text{
+
+    padding-top: 200px;
+}
+#eight button{
+    border:1px #e1dede solid;
+    width: 66px;
+    height: 30px;
+    margin-top: 15px;
+    background: #fff;
+}
+#six{
+    width: 100%;
+    height: 374px;
+    margin-top: 81px;
+}
+#six-6{
+    width: 100%;
+    height: 337px;
+    background: url(../images/PUSH_art_du_detail.jpg);
+    background-size:cover;
+    margin-top: 12px;
+}
+#six h1{
+    font-family: 迷你简菱心;
+    font-size: 24px;
+    padding-top: 270px;
+}
+#six h2{
+    font-family: 迷你简菱心;
+    font-size: 14px;
+
+}
+
+#footer{
+    width: 100%;
+    height: 204px;
+    border-top: 1px #e1dede solid;
+    /*background: pink;*/
+    margin: auto;
+    margin-top:60px;
+    text-align: center;
+}
+
+/*#footer div{*/
+    /*width: 400px;*/
+    /*height: 130px;*/
+    /*!*background: orange;*!*/
+    /*float: left;*/
+    /*margin: 0px 12px 12px 12px;*/
+/*}*/
+#footer h1{
+    font-weight:bold;
+    font-size: 24px;
+
+}
+#footer .col-md-4{
+    margin-top: 40px;
+}
+#footer p{
+    font-family: 黑体;
+    font-size: 14px;
+    color: #939191;
+}
+
+#footer button{
+    padding: 3px 9px;
+
+    background: #000;
+    color: #fff;
+
+}
+#footer ul{
+    width: 60%;
+    height: 32px;
+    margin: auto;
+}
+
+#footer li a{
+    padding: 5px 7px;
+    float: left;
+    font-family: 新宋体;
+    font-size: 12px;
+    margin-top: 15px;
+    color: #aaa9b0;
+}
+#footer a:hover{
+    color: #000;
+}
+.other{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #aaa9b0;
+}

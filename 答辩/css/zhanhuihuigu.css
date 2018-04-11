@@ -7,8 +7,6 @@
             background-size:cover;
             /*background: url(images/stones-close-up-background.jpg);*/
             margin:0 auto;
-            overflow: hidden;
-
         }
         #header{
             width: 1260px;
@@ -40,18 +38,19 @@
             color:#000;
             border-bottom: 3px solid orange;
         }
-        #banner{
-            overflow: hidden;
-            margin:0 auto;
-            width:1260px;
-            height: 600px;
-            position: relative;
-        }
-        #banner img{
-            float: left;
-            width:1260px;
-            height: 600px;
-        }
+#banner{
+    overflow: hidden;
+    margin:0 auto;
+    width:1260px;
+    height:600px;
+    position: relative;
+}
+#banner img{
+    float: left;
+    width:1260px;
+    height:600px;
+    opacity: 0.8;
+}
 
         #pic{
             width: 7000px;
@@ -221,7 +220,7 @@
             border-radius: 10px;
             position: relative;
             left:100px;
-            top:25px;
+            top:15px;
             font-family:迷你简汉真广标;
             color: #000;
             font-size:20px;

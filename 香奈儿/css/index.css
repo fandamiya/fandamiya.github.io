@@ -1,0 +1,98 @@
+a{text-decoration: none}
+li{list-style: none}
+*{margin:0;padding:0;}
+
+#warper{
+	width: 100%;
+	height: 100%;
+}
+#header{
+	width: 168px;
+	height: 68px;
+	margin: auto;
+}
+#banner{
+	overflow: hidden;
+	margin:auto;
+	width:100%;
+	position: relative;
+}
+#banner img{
+	width:100%;
+	opacity: 0.8;
+}
+#banner::after{
+	clear: both;
+	display: table;
+	content: '';
+}
+.mini{
+	font-weight: bold;
+}
+#main #pic{
+	width:1600px;
+	height: 500px;
+}
+.hehe{
+	width: 80%;
+ 	padding-top: 20px;
+	margin:auto;
+}
+.hehe li{
+	list-style: none;
+	padding:20px;
+	text-align: center;
+	float: left;
+}
+.hehe li a{
+	color:#000;
+}
+.hehe::after{
+	content:"";
+	clear: both;
+	display: table;
+}
+.hehe p{
+	text-align: center;
+}
+#banner{
+	overflow: hidden;
+	margin:auto;
+}
+
+#main{
+	width:80%;
+	margin:auto;
+}
+#main #banner img{
+	width: 80%;
+}
+#main-bottom img{
+	width: 356px;
+	height: 140px;
+	margin-left:35%;
+}
+
+#footer{
+	width: 100%;
+	margin-top:20px;
+}
+#footer ul{
+	width: 70%;
+	float: left;
+	padding: 50px;
+	margin:auto;
+}
+#footer li{
+	padding-right:20px;
+	float: left;
+	font-family: 方正黑体简体;
+	font-size: 16px;
+}
+
+#footer a{
+	color: #777778;
+ }
+#footer a:hover{
+	color: #000;
+}

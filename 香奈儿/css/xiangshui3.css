@@ -1,0 +1,359 @@
+*{margin:0;padding:0;  }
+li{list-style: none;}
+a{text-decoration: none}
+#clear{clear: both}
+
+.warper{
+    width: 100%;
+    height: 100%;
+}
+
+
+#header_bg{
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+}
+.logo img{
+    width: 80%;
+    height: 70%;
+}
+
+#nav {
+    width: 196px;
+    height: 53px;
+    /*background: pink;*/
+    margin:auto;
+    margin-top: -23px;
+    color: white;
+}
+#header_bg .col-md-2{
+    float: right;
+}
+#nav a{
+    color: #fff;
+}
+#nav a:hover{
+    font-family: 迷你简菱心;
+}
+#nav li{
+    padding:14px;
+    float: left;
+    font-family: 方正黑体简体;
+    font-size: 16px;
+
+}
+
+#header-right{
+
+    float: right;
+
+}
+#header_bg::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+#header-right li{
+    float: left;
+    margin-top: 14px;
+}
+
+#main{
+    width: 90%;
+    height: 100%;
+    margin:auto;
+    /*background: pink;*/
+}
+#main-left{
+    width:49%;
+    height: 100%;
+    /*background: blue;*/
+    float: left;
+}
+#main::after{
+    clear:both;
+    display: table;
+    content: '';
+}
+#one{
+    width: 100%;
+    height: 470px;
+    background: url(../images/majeur_desktop.adaptive.1637.jpg);
+    background-size:cover;
+    border: 1px #e1dede solid;
+    margin-top: 24px;
+}
+.one-text{
+
+    margin-left: 122px;
+    margin-top: 182px;
+}
+#one h1{
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+#one p{
+    font-family: 方正稚艺简体;
+    font-size: 34px;
+}
+#one button{
+    width: 50px;
+    height: 32px;
+    margin-top: 30px;
+    background: #fff;
+    border:1px #e1dede solid;
+}
+#one a{
+    color:black;
+}
+#two{
+    width: 100%;
+    height: 790px;
+    background: #fff;
+    border:1px #e1dede solid;
+    margin-top: 18px;
+
+}
+
+#main h3{
+    width: 100%;
+    height: 25px;
+    font-family: Cambria;
+    font-size: 14px;
+    background: #000;
+    color: white;
+    padding-top: 2px;
+}
+#two-2{
+    width: 100%;
+    height: 750px;
+    border:1px #e1dede solid;
+    background: url(../images/gabrielle_push_double.adaptive.2560.jpg);
+    background-size:cover;
+    margin-top: 12px;
+}
+#two h1{
+    font-family: Comic Sans MS;
+    font-size: 40px;
+}
+.two-text{
+    width:200px;
+    height: 170px;
+    margin:auto;
+    margin-top: 502px;
+    /*background: pink;*/
+}
+#two h2{
+    font-family: Comic Sans MS;
+    font-size: 30px;
+    color: #ff1914;
+    margin-left: 120px;
+    margin-top: -20px;
+}
+#two h4{
+    font-family: 迷你简菱心;
+    font-size: 14px;
+    margin-left: 65px;
+}
+#two button{
+    background: #fff;
+    border:1px #e1dede solid;
+    width: 66px;
+    height: 30px;
+    margin-left:140px;
+    margin-top: 20px;
+}
+#three{
+    width: 100%;
+    height: 374px;
+    margin-top: 18px;
+}
+#three-3{
+    width: 100%;
+    height: 338px;
+    background: url(../images/chanelparfumeur_push_simple.jpg);
+    background-size:  cover  ;
+    margin-top: 12px;
+}
+
+#three-3 h1{
+    font-family: 迷你简菱心;
+    font-size: 24px;
+    padding-top: 200px;
+    margin-left: 40px;
+    color: white;
+}
+#three button{
+    background: #fff;
+    border:1px #e1dede solid;
+    width: 66px;
+    height: 30px;
+    margin-left:40px;
+    margin-top: 20px;
+}
+#main-right{
+    width: 49%;
+    height: 1225px;
+    /*background: orange;*/
+    float: right;
+}
+#four{
+    width: 100%;
+    height: 374px;
+    margin-top: 18px;
+}
+#four-4{
+    width: 100%;
+    height: 337px;
+    background: url(../images/PUSH_MINEUR.adaptive.2560.jpg);
+    background-size:cover;
+    margin-top: 12px;
+}
+.four-text{
+    padding-top: 40px;
+    margin-left: 40px;
+}
+#four h1{
+    font-family: 迷你简菱心;
+    font-size: 16px;
+    color: white;
+}
+#four h2{
+    font-family: 迷你简菱心;
+    font-size: 24px;
+    color: #fff;
+}
+#four button{
+    background: #fff;
+    border:1px #e1dede solid;
+   padding:3px 9px;
+    margin-top: 200px;
+    margin-left:30px;
+}
+#five{
+    width: 100%;
+    height: 374px;
+    padding-top: 43px;
+}
+#five-5{
+    width: 100%;
+    height: 337px;
+    background: url(../images/landing_parfums_exclusifs.jpg);
+    background-size:cover;
+    margin-top: 12px;
+}
+.five-text{
+    width: 60%;
+    height: 30%;
+    background: #fff;
+    opacity: 0.8;
+    float: right;
+    margin-top: 86px;
+}
+#five h1{
+    font-family:迷你简雪峰;
+    font-size: 16px;
+    float: right;
+}
+#five h2{
+    font-family: 迷你简菱心;
+    font-size: 24px;
+    float: right;
+    margin-top: 20px;
+}
+#five button{
+    border:1px #e1dede solid;
+    width: 66px;
+    height: 30px;
+    margin-top: 50px;
+    background: #fff;
+}
+#six{
+    width: 100%;
+    height: 374px;
+    margin-top: 61px;
+}
+#six-6{
+    width: 100%;
+    height: 337px;
+    background: url(../images/PUSH_art_du_detail.jpg);
+    background-size:cover;
+    margin-top: 12px;
+}
+#six h1{
+    font-family: 迷你简菱心;
+    font-size: 24px;
+    padding-top: 270px;
+}
+#six h2{
+    font-family: 迷你简菱心;
+    font-size: 14px;
+
+}
+#footer{
+    width: 100%;
+    height: 204px;
+    border-top: 1px #e1dede solid;
+    /*background: pink;*/
+    margin: auto;
+    margin-top:60px;
+    text-align: center;
+}
+
+/*#footer div{*/
+/*width: 400px;*/
+/*height: 130px;*/
+/*!*background: orange;*!*/
+/*float: left;*/
+/*margin: 0px 12px 12px 12px;*/
+/*}*/
+#footer h1{
+    font-weight:bold;
+    font-size: 24px;
+
+}
+#footer .col-md-4{
+    margin-top: 40px;
+}
+#footer p{
+    font-family: 黑体;
+    font-size: 14px;
+    color: #939191;
+}
+
+#footer button{
+    width: 65px;
+    height: 33px;
+    background: #000;
+    color: #fff;
+
+}
+#footer ul{
+    width: 60%;
+    height: 32px;
+    margin: auto;
+}
+
+#footer li a{
+    padding: 5px 7px;
+    float: left;
+    font-family: 新宋体;
+    font-size: 12px;
+    margin-top: 15px;
+    color: #aaa9b0;
+}
+#footer a:hover{
+    color: #000;
+}
+.other{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #aaa9b0;
+}

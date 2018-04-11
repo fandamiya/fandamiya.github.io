@@ -39,18 +39,19 @@
             color:#000;
             border-bottom: 3px solid orange;
         }
-        #banner{
-            overflow: hidden;
-            margin:0 auto;
-            width:1260px;
-            height: 600px;
-            position: relative;
-        }
-        #banner img{
-            float: left;
-            width:1260px;
-            height: 600px;
-        }
+#banner{
+    overflow: hidden;
+    margin:0 auto;
+    width:1260px;
+    height:550px;
+    position: relative;
+}
+#banner img{
+    float: left;
+    width:1260px;
+    height: 550px;
+    opacity: 0.8;
+}
 
         #pic{
             width: 7000px;
@@ -251,8 +252,8 @@
             background: #000;
             border-radius: 20px;
             position: fixed;
-            top:100px;
-            left:430px;
+            top:200px;
+            right:36%;
             z-index: 333;
         }
 

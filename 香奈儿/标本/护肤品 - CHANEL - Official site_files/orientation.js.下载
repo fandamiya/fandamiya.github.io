@@ -1,0 +1,44 @@
+(function (){
+    var deviceOrientation = function (dcs, options) {
+        dcs.addTransform(function (dcsObject, o) { dcsObject.DCSext.orientation = getOrientation();}, "all");
+		var mobiles = /mobile|ip(hone|od|ad)|android|blackberry|iemobile|kindle|(hpw|web)os|fennec|minimo|opera m(obi|ini)|zune/i;
+		var isMobile = mobiles.test(navigator.userAgent.toLowerCase());
+		if (window.DeviceOrientationEvent && isMobile) {
+			var ev = (/ip(hone|od|ad)/i.test(navigator.userAgent.toLowerCase())) ? "orientationchange" : "resize";
+			window.addEventListener(ev, debounce(function (e) { viewportChange(ev, dcs); }, 500, false), false);
+		}
+	};
+	var getOrientation = function() {
+		if (typeof window.matchMedia != "undefined" || typeof window.msMatchMedia != "undefined"){ return (window.matchMedia("(orientation: portrait)").matches) ? "portrait" : "landscape";} 
+		else if (typeof window.innerWidth != 'undefined'){ return (window.innerHeight >= window.innerWidth) ? "portrait" : "landscape";} 
+		else if (typeof document.documentElement != 'undefined' && typeof document.documentElement.offsetWidth !='undefined'){ return (document.documentElement.offsetHeight >= document.documentElement.offsetWidth) ? "portrait" : "landscape";} 
+		else if (typeof document.body != 'undefined' && typeof document.body.offsetWidth != 'undefined'){ return (document.body.offsetHeight >= document.body.offsetWidth) ? "portrait" : "landscape";}
+		else { return "unknown";}
+	};
+	var viewportChange = function(event, dcsObject) {
+		Webtrends.multiTrack({
+			args: { "DCSext.viewport_change" : dcsObject.DCSext.orientation.toString() + " to " + getOrientation(), 
+					"WT.dl" : "99"
+				}
+		});
+	};
+	var debounce = function (func, threshold, execAsap) {
+		var timeout;
+		return function debounced () {
+			var obj = this, args = arguments;
+			function delayed () {
+				if (!execAsap)
+					func.apply(obj, args);
+				timeout = null; 
+			};
+			if (timeout)
+				clearTimeout(timeout);
+			else if (execAsap)
+				func.apply(obj, args);
+			timeout = setTimeout(delayed, threshold || 100); 
+		};
+	}
+    Webtrends.registerPlugin("orientation", function (dcs, options) {
+        deviceOrientation(dcs, options);
+    });
+})();

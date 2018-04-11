@@ -1,0 +1,377 @@
+*{margin:0;padding:0;  }
+li{list-style: none;}
+a{text-decoration: none}
+#clear{clear: both}
+
+.warper{
+    width: 100%;
+    height: 100%;
+}
+
+
+#header_bg{
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+}
+.logo img{
+    width: 80%;
+    height: 70%;
+}
+
+#nav {
+    width: 196px;
+    height: 53px;
+    /*background: pink;*/
+    margin:auto;
+    margin-top: -23px;
+    color: white;
+}
+#header_bg .col-md-2{
+    float: right;
+}
+#nav a{
+    color: #fff;
+}
+#nav a:hover{
+    font-family: 迷你简菱心;
+}
+#nav li{
+    padding:14px;
+    float: left;
+    font-family: 方正黑体简体;
+    font-size: 16px;
+
+}
+
+#header-right{
+
+    float: right;
+
+}
+#header_bg::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+#header-right li{
+    float: left;
+    margin-top: 14px;
+}
+
+#main{
+    width: 90%;
+    height: 100%;
+    margin:auto;
+    /*background: pink;*/
+}
+#main-left{
+    width:49%;
+    height: 100%;
+    /*background: blue;*/
+    float: left;
+}
+#main::after{
+    clear:both;
+    display: table;
+    content: '';
+}
+#one{
+    width: 100%;
+    height: 470px;
+    background: url(../images/BLUE_SERUM_main_CN_JP.jpg);
+    background-size:cover;
+    border: 1px #e1dede solid;
+    margin-top: 24px;
+}
+.one-text{
+
+    margin-left: 82px;
+    margin-top: 120px;
+}
+#main h1{
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+#main p{
+    font-family: 迷你简汉真广标;
+    font-size: 30px;
+}
+#one button{
+   padding: 3px 9px;
+    margin-top: 20px;
+    background: #fff;
+    border:1px #e1dede solid;
+}
+#two{
+    width: 100%;
+    height: 790px;
+    background: #fff;
+    border:1px #e1dede solid;
+    margin-top: 18px;
+
+}
+
+#main h3{
+    width: 100%;
+    height: 25px;
+    font-family: Cambria;
+    font-size: 14px;
+    background: #000;
+    color: white;
+    padding-top: 2px;
+}
+#two-2{
+    width:100%;
+    height: 750px;
+    border:1px #e1dede solid;
+    background: url(../images/sublimage_voyage_push_double.jpg);
+    background-size:cover;
+    margin-top: 12px;
+}
+
+.two-text{
+    margin-top: 20px;
+}
+
+#two p{
+    color: #fff;
+}
+#two h1{
+    color: #fff;
+}
+#two button{
+    background: #fff;
+    border:1px #e1dede solid;
+    padding: 3px 9px;
+    /*	margin-left:140px;*/
+    margin-top: 20px;
+}
+#three{
+    width: 100%;
+    height: 374px;
+    margin-top: 18px;
+}
+#three-3{
+    width: 100%;
+    height: 338px;
+    background: url(../images/940x506-packshots-cure.jpg);
+    background-size:cover;
+    margin-top: 12px;
+}
+#three-3{
+    content: '';
+    display: table;
+    clear: both;
+}
+#three p{
+    float: right;
+    margin-top: 10px;
+}
+
+#three button{
+    background: #fff;
+    border:1px #e1dede solid;
+    padding: 3px 9px;
+
+    float: right;
+    margin-top: 60px;
+    margin-right: -150px;
+}
+#seven{
+    width: 100%;
+    height: 790px;
+    background: #fff;
+    border:1px #e1dede solid;
+    margin-top: 18px;
+
+}
+#seven{
+    width:100%;
+    height: 374px;
+    margin-top: 18px;
+}
+#seven-3{
+    width: 100%;
+    height: 338px;
+    background: url(../images/uvessentiel_hpskincare_small_CN.jpg);
+    background-size:cover;
+    margin-top: 12px;
+}
+
+#seven button{
+    padding: 3px 9px;
+
+    background: #fff;
+    border:1px #e1dede solid;
+    margin-top: 20px;
+}
+#main-right{
+    width: 49%;
+    height: 1638px;
+    /*background: orange;*/
+    float: right;
+}
+#four{
+    width: 100%;
+    height: 374px;
+    margin-top: 18px;
+}
+#four-4{
+    width: 100%;
+    height: 337px;
+    background: url(../images/940x506-LANDING_V3_LE_LIFT.jpg);
+    background-size:cover;
+    margin-top: 12px;
+}
+.four-text{
+
+    padding-top: 40px;
+    margin-left: 40px;
+}
+#four h1{
+    color: #fff;
+}
+#four p{
+    color: #fff;
+}
+#four button{
+    background: #fff;
+    border:1px #e1dede solid;
+    padding: 3px 9px;
+
+    margin-top: 20px;
+}
+#five{
+    width: 100%;
+    height: 374px;
+    padding-top: 43px;
+}
+#five-5{
+    width: 100%;
+    height: 337px;
+    background: url(../images/solution10_skincare_small.jpg);
+    background-size:cover;
+    margin-top: 12px;
+}
+
+
+
+#five button{
+    border:1px #e1dede solid;
+    padding: 3px 9px;
+
+    margin-top: 20px;
+    background: #fff;
+}
+#eight{
+    width: 100%;
+    height: 374px;
+    padding-top: 60px;
+}
+#eight-5{
+    width:100%;
+    height: 337px;
+    background: url(../images/2212111140.jpg);
+    background-size:cover;
+    margin-top: 12px;
+}
+.eight-text{
+
+    padding-top: 143px;
+}
+
+#eight button{
+    border:1px #e1dede solid;
+    padding: 3px 9px;
+
+    margin-top: 15px;
+    background: #fff;
+}
+#six{
+    width: 100%;
+    height: 374px;
+    margin-top: 80px;
+}
+#six-6{
+    width: 100%;
+    height: 337px;
+    background: url(../images/cc-cream-minor.jpg);
+    background-size:cover;
+    margin-top: 12px;
+}
+#six p{
+    color: #fff;
+}
+#six button{
+    padding: 3px 9px;
+
+    background: #fff;
+    border:1px #e1dede solid;
+    margin-top: 20px;
+}#footer{
+    width: 100%;
+    height: 204px;
+    border-top: 1px #e1dede solid;
+    /*background: pink;*/
+    margin: auto;
+    margin-top:60px;
+    text-align: center;
+}
+
+/*#footer div{*/
+/*width: 400px;*/
+/*height: 130px;*/
+/*!*background: orange;*!*/
+/*float: left;*/
+/*margin: 0px 12px 12px 12px;*/
+/*}*/
+#footer h1{
+    font-weight:bold;
+    font-size: 24px;
+
+}
+#footer .col-md-4{
+    margin-top: 40px;
+}
+#footer p{
+    font-family: 黑体;
+    font-size: 14px;
+    color: #939191;
+}
+
+#footer button{
+    padding: 3px 9px;
+
+    background: #000;
+    color: #fff;
+
+}
+#footer ul{
+    width: 60%;
+    height: 32px;
+    margin: auto;
+}
+
+#footer li a{
+    padding: 5px 7px;
+    float: left;
+    font-family: 新宋体;
+    font-size: 12px;
+    margin-top: 15px;
+    color: #aaa9b0;
+}
+#footer a:hover{
+    color: #000;
+}
+.other{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #aaa9b0;
+}

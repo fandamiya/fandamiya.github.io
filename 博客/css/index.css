@@ -1,0 +1,117 @@
+*{
+    margin:0;padding:0;
+}
+li{
+   list-style: none;
+}
+
+.col-md-6{
+    float: left;
+    text-align: center;
+
+}
+
+.main::after{
+    content: '';
+    clear:both;
+    display: table;
+}
+.yi{
+    width: 97%;
+    text-align: center;
+    height: 100%;
+}
+
+.main{
+    width: 80%;
+    margin:auto;
+}
+.text{
+    width: 86%;
+margin:auto;
+    margin-top: 22%;
+}
+.text h3{
+    font-style: italic;
+    font-weight: 600;
+    font-family: "Crimson";
+    font-size: 19px;
+    padding-bottom: 25px;
+    line-height: 29px;
+    text-align: left;
+}
+
+.box ul::after{
+    content: '';
+    display: table;
+    clear:both;
+}
+.box button{
+    font-style: italic;
+    font-size: 23px;
+    width: 217px;
+    height: 41px;
+    text-align: center;
+    background: #fff;
+    border:1px solid #000;
+}
+.er{
+    font-style: italic;
+    font-size: 23px;
+    width: 217px;
+    height: 41px;
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+    background: #fff;
+    border:1px solid #000;  }
+.san{
+    float: left;
+    margin-top: 10px;
+}
+
+.er:hover{
+    background: #8b6443;
+    color:#fff;
+    transition: all 0.4s ease-in-out;
+}
+.box button:hover{
+    background: #8b6443;
+    color:#fff;
+    transition: all 0.4s ease-in-out;
+}
+.box li{
+    margin-top: 50px;
+}
+
+.box span{
+    width: 40px;
+    height: 40px;
+}
+.main h2{
+    margin-top: 10px;
+}
+.main p{
+    margin-top: 10px;
+    font-family: "Crimson";
+    line-height: 28px;
+    font-size: 16px;
+    text-align: left;
+}
+.marker{
+    position: relative;
+    font-size: 60px;
+    opacity: 0.1;
+    font-family: "Josefin Sans";
+    left: -317px;
+    top: -16px;
+    display: inline-block;
+}
+.boox img{
+    width: 70%;
+}
+.boox h4{
+    color: #8b6443;
+    font-size: 20px;
+    text-align: left;
+}

@@ -8,8 +8,10 @@
             background-size:cover;
             /*background: url(images/stones-close-up-background.jpg);*/
             margin:0 auto;
-            overflow: hidden;
     }
+        #main{
+            text-align: center;
+        }
         .right p{
             margin-top:10px;
             font-size: 15px;
@@ -52,18 +54,19 @@
             overflow: hidden;
             margin:0 auto;
             width:1260px;
-            height: 600px;
+            height:600px;
             position: relative;
         }
         #banner img{
             float: left;
             width:1260px;
             height: 600px;
+            opacity: 0.8;
         }
 
         #pic{
             width: 7000px;
-            height: 400px;
+            height: 600px;
         }
         .hehe li{
             list-style: none;
@@ -96,22 +99,22 @@
         }
         .img{
 /*            padding-top: 20px;*/
-            width: 1260px;
+            width: 1210px;
             height: 760px;
             margin:0 auto;
-/*            background: #000;*/
+            /*background: #000;*/
         }
 
         
         .img img{
-            width: 360px;
+            width: 350px;
             height: 335px;
             border:2px solid #ccc;
 
 
         }
         .img ul li{
-            width: 360px;
+            width: 350px;
             height: 335px;
             /*border: 5px solid #C9B091;*/
             border-radius: 10px;
@@ -120,7 +123,7 @@
             /*margin-right: 10px;*/
             transition: all 2s ease;
             z-index: 1;
-            margin:25px 30px;
+            margin:25px 25px;
         }
         .img ul li :hover{
             transform: rotate(0deg)
@@ -149,6 +152,66 @@
             color:darkred;
             border-bottom: 2px solid #ccc;
         }
+        #chouchang{
+            width: 1100px;
+            height: 600px;
+            margin:0 auto;
+            /*padding: 20px;*/
+            /*background: #000;*/
+        }
+        .zhishi{
+            width: 400px;
+            height: 600px;
+            float: left;
+            margin-left: 50px;
+            /*background: #000;*/
+        }
+        .zhishi p{
+            margin-top: 20px;
+            font-family: 微软雅黑;
+            font-size: 15px;
+        }
+        .xinwenqiang li{
+            padding-top: 40px;
+        }
+        .tuijian{
+            width: 300px;
+            height: 600px;
+            float: left;
+            padding-top: 40px;
+            /*background: #000;*/
+        }
+        .tuijian li{
+            margin-top: 20px;
+            font-family: 微软雅黑;
+            font-size: 15px;
+        }
+        .tuijian a {
+            color: #10709f;
+        }
+        .tuijian a :hover{
+            color:orange;
+        }
+
+        .tuijian img{
+            width: 150px;
+            height: 70px;
+            float: left;
+        }
+        .xinwenqiang{
+            width: 250px;
+            height: 600px;
+            float: right;
+            margin-top: 40px;
+            /*background: #000;   */
+        }
+        .xinwenqiang a{
+            color: #737373;
+
+        }
+        .xinwenqiang a:hover{
+            color:orange;
+        }
         .xinwen{
             width: 1000px;
             height:256px;
@@ -159,7 +222,7 @@
             width: 400px;
             height: 254px;
             float: left;
-            margin-left: 30px;
+            margin-left: 50px;
             
         }
         .xinwen  a {
@@ -174,6 +237,12 @@
         }
         span{
             float: right;
+        }
+        #main{
+            width: 1200px;
+            height:2400px;
+            margin:0 auto;
+            /*background: #000;*/
         }
         #footer{
             width: 100%;
@@ -291,11 +360,10 @@
         }
 
         @media all and (max-width: 1000px) and (min-width:600px){
-       .img ul li{
-           margin:10px 10px;
-
-       }
-            #nav{
+            #chouchang{
+                display: none;
+            }
+         #nav{
                 width: 600px;
             }
             #nav li{
@@ -319,7 +387,7 @@
                 /*margin-right: 10px;*/
                 transition: all 2s ease;
                 z-index: 1;
-                margin:25px 30px;
+                margin:25px 46px;
             }
             #header{
                 width: 600px;
@@ -380,10 +448,10 @@
             #main{
                 width: 600px;
                 margin:0 auto;
+                height: 1700px;
             }
         }
         @media all and (max-width:599px) {
-            
             #banner{
                 display: none;
             }
@@ -391,7 +459,9 @@
                 margin:10px 10px;
 
             }
-
+            #chouchang{
+                display: none;
+            }
             #nav li{
                 padding: 10px 2px;
                 float:none;
@@ -407,9 +477,9 @@
                 font-size: 10px;
             }
             .img {
-                width: 300px;
+                width: 80%;
                 height: 300px;
-                margin:0 auto;
+                margin: auto;
             }
             .img img{
                 width: 60px;
@@ -429,7 +499,7 @@
             }
             #header{
                 width:300px;
-                margin:0 auto;
+                margin: auto;
             }
 
             #warper{
@@ -440,11 +510,11 @@
             }
             .zuixin{
                 width: 300px;
-                margin:0 auto;
+                margin: auto;
             }
             .img2{
                 width: 300px;
-                margin:0 auto;
+                margin: auto;
             }
             .img2 img{
                 border:2px solid orange;
@@ -454,7 +524,7 @@
                 height: 60px;
             }
             .xinwen{
-                width: 300px;
+                width: 80%;
                 margin:0 auto;
             }
             .xinwen div{
@@ -467,6 +537,7 @@
             }
             #main p{
                 font-size: 10px;
+                margin-top: 10px;
             }
             .hehe{
                 display: none;
@@ -474,6 +545,10 @@
             #main{
                 width: 300px;
                 margin:0 auto;
+                height: 900px;
+            }
+            #chouchang{
+                display: none;
             }
         }
 
@@ -526,5 +601,11 @@
             #main{
                 width: 1000px;
                 margin:0 auto;
+                height: 1800px;
+                padding-top: 50px;
             }
+            #chouchang{
+               display: none;
+            }
+
         }
